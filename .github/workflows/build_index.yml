@@ -1,0 +1,48 @@
+name: Build index
+
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - master
+      paths:
+        - 'extensions/**.json'
+        - 'tags.json'
+        - 'index.json'
+
+permissions:
+    contents: write
+
+jobs:
+    build-extension-index-jobs:
+        runs-on: ubuntu-latest
+        if: github.event.repository.fork == false
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+
+        - name: Setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.11'
+
+        - name: Build extension index
+          run: python ./build_index.py
+
+        - name: Validate index
+          run: python ./validate_json.py -i ./index.json
+
+        - name: Get last commit message
+          id: last-commit-message
+          run: echo "msg=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+
+        - name: Commit
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: ${{ steps.last-commit-message.outputs.msg }}
+            commit_options: '--amend --no-edit'
+            file_pattern: '*.json'
+            push_options: '--force'
+            skip_fetch: true
