@@ -85,7 +85,7 @@ if __name__ == "__main__":
     extensions = read_extension_dir()
 
     # update indexs
-    extension_index_ext = update_index(Path('extensions/index.json'), extensions, tags)
+    extension_index_ext = update_index(extensions, tags)
     extension_index_master = update_master_index(extension_index_ext)
 
     # validate
