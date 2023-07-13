@@ -4,10 +4,11 @@ import datetime
 from re import compile
 from collections import Counter
 
+script_dir = Path(__file__).parent
 git_url_pattern = compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
 
 def validate_index():
-    with open('index.json') as inf:
+    with open(script_dir.joinpath('index.json')) as inf:
         d = json.load(inf)
         assert "tags" in d
 
@@ -29,7 +30,7 @@ def validate_index():
             datetime.date.fromisoformat(extension['added']), "Incorrect data format, should be YYYY-MM-DD"
 
 
-with open('tags.json', 'r') as f:
+with open(script_dir.joinpath('tags.json'), 'r') as f:
     tags = json.load(f)
 
 tags_keys = tags.keys()
@@ -61,7 +62,7 @@ def validate_entry(file: Path):
 
 def validate_extension_entrys():
     urls = []
-    for f in Path('extensions').iterdir():
+    for f in Path(script_dir.joinpath('extensions')).iterdir():
         if f.is_file() and f.suffix.lower() == '.json':        
             urls.append(validate_entry(f))
     counts = Counter(urls)
