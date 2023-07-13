@@ -12,10 +12,12 @@ jobs:
         if: github.event.repository.fork == false
         steps:
 
-        - name: Checkout master
+        - name: Checkout
           uses: actions/checkout@v3
 
         - run: git branch --show-current
+        - run: echo Checkout 1 >> test
+        - run: cat test
 
         - name: Checkout master
           uses: actions/checkout@v3
@@ -23,6 +25,9 @@ jobs:
             ref: 'master'
 
         - run: git branch --show-current
+        - run: echo Checkout master >> test
+        - run: cat test
+
 
         - name: Checkout extensions
           uses: actions/checkout@v3
@@ -30,3 +35,5 @@ jobs:
             ref: 'extensions'
 
         - run: git branch --show-current
+        - run: echo Checkout extensions >> test
+        - run: cat test
