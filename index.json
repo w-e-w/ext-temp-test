@@ -1992,6 +1992,16 @@
                 "extras"
             ],
             "added": "2023-07-13"
+        },
+        {
+            "name": "123442r",
+            "url": "https://asdds.com/toriato/stable-diffusion-webui-wd14-tagger.git",
+            "description": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
+            "tags": [
+                "tab",
+                "training"
+            ],
+            "added": "2023-07-13"
         }
     ]
 }
