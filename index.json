@@ -26,14 +26,7 @@
             "added": "2023-01-21",
             "tags": [
                 "animation"
-            ],
-            "full_name": "vladmandic/sd-extension-steps-animation",
-            "github_description": "Save Interim Steps as Animation extension for SD WebUI",
-            "stars": 101,
-            "default_branch": "main",
-            "created_at": "2023-01-14T17:27:48Z",
-            "default_branch_commit_sha": "acac7f166d5613ebfddac4c0a286ba2e5f7f29d1",
-            "commit_time": "2023-06-30T03:49:37Z"
+            ]
         },
         {
             "name": "zh_TW Localization",
@@ -42,14 +35,7 @@
             "added": "2022-11-09",
             "tags": [
                 "localization"
-            ],
-            "full_name": "harukaxxxx/stable-diffusion-webui-localization-zh_TW",
-            "github_description": "Traditional Chinese translation extension for Stable Diffusion web UI by AUTOMATIC1111",
-            "stars": 6,
-            "default_branch": "main",
-            "created_at": "2023-04-18T23:44:55Z",
-            "default_branch_commit_sha": "aa32bba32fd11609634b19e5ff2dadf9c666c529",
-            "commit_time": "2023-07-09T02:46:33Z"
+            ]
         },
         {
             "name": "sd-webui-roop",
@@ -59,14 +45,7 @@
             "tags": [
                 "editing",
                 "manipulations"
-            ],
-            "full_name": "s0md3v/sd-webui-roop",
-            "github_description": "roop extension for StableDiffusion web-ui",
-            "stars": 1446,
-            "default_branch": "main",
-            "created_at": "2023-06-17T22:53:22Z",
-            "default_branch_commit_sha": "e6333fbe5a0f3e6a515852388151f1db2315c45d",
-            "commit_time": "2023-07-07T09:22:59Z"
+            ]
         },
         {
             "name": "Civitai Shortcut",
@@ -76,14 +55,7 @@
                 "models",
                 "extras"
             ],
-            "added": "2023-07-08",
-            "full_name": "sunnyark/civitai-shortcut",
-            "github_description": null,
-            "stars": 67,
-            "default_branch": "main",
-            "created_at": "2023-03-27T13:58:05Z",
-            "default_branch_commit_sha": "ebe3c26c54f040eb457c1aea44334b3cd20a9405",
-            "commit_time": "2023-07-09T05:37:48Z"
+            "added": "2023-07-08"
         },
         {
             "name": "db-storage1111",
@@ -92,14 +64,7 @@
             "added": "2023-03-12",
             "tags": [
                 "script"
-            ],
-            "full_name": "takoyaro/db-storage1111",
-            "github_description": "automatic1111's stable-diffusion-webui extension for storing images to a database",
-            "stars": 38,
-            "default_branch": "main",
-            "created_at": "2023-03-10T09:41:20Z",
-            "default_branch_commit_sha": "855f1c2c9af8499095c92411f3a1c39b15926325",
-            "commit_time": "2023-05-02T12:40:49Z"
+            ]
         },
         {
             "name": "DH Patch",
@@ -108,14 +73,7 @@
             "added": "2022-12-16",
             "tags": [
                 "script"
-            ],
-            "full_name": "d8ahazard/sd_auto_fix",
-            "github_description": "Fine, I'll just put my pull requests here.",
-            "stars": 11,
-            "default_branch": "main",
-            "created_at": "2022-12-14T16:20:42Z",
-            "default_branch_commit_sha": "f54e4b53dc48748072cdc36512b7100933dfc998",
-            "commit_time": "2023-01-03T03:00:30Z"
+            ]
         },
         {
             "name": "Composable LoRA",
@@ -124,14 +82,7 @@
             "added": "2023-06-23",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "a2569875/stable-diffusion-webui-composable-lora",
-            "github_description": "This extension replaces the built-in LoRA forward procedure.",
-            "stars": 91,
-            "default_branch": "main",
-            "created_at": "2023-04-13T10:25:40Z",
-            "default_branch_commit_sha": "e8f461f0e96791001321b79089c60a5178978e65",
-            "commit_time": "2023-06-28T09:02:27Z"
+            ]
         },
         {
             "name": "zh_CN Localization",
@@ -140,14 +91,7 @@
             "added": "2022-11-06",
             "tags": [
                 "localization"
-            ],
-            "full_name": "dtlnor/stable-diffusion-webui-localization-zh_CN",
-            "github_description": "Simplified Chinese translation extension for AUTOMATIC1111's stable diffusion webui",
-            "stars": 982,
-            "default_branch": "main",
-            "created_at": "2022-11-06T09:14:30Z",
-            "default_branch_commit_sha": "582ca24da2f5ca7a155b1950471a61d38b1c9b62",
-            "commit_time": "2023-03-30T07:06:14Z"
+            ]
         },
         {
             "name": "sd-webui-prompt_history",
@@ -157,14 +101,7 @@
             "tags": [
                 "UI related",
                 "tab"
-            ],
-            "full_name": "namkazt/sd-webui-prompt-history",
-            "github_description": "Automatic store your generation info with image and apply back anytime.",
-            "stars": 23,
-            "default_branch": "main",
-            "created_at": "2023-06-14T18:06:33Z",
-            "default_branch_commit_sha": "ecd3ca2ed5b7612da29a6080e7d5658ddee9fbe9",
-            "commit_time": "2023-06-29T15:34:41Z"
+            ]
         },
         {
             "name": "Infinite Zoom",
@@ -174,14 +111,7 @@
             "tags": [
                 "tab",
                 "animation"
-            ],
-            "full_name": "v8hid/infinite-zoom-automatic1111-webui",
-            "github_description": "infinite zoom effect extension for AUTOMATIC1111's webui - stable diffusion ",
-            "stars": 477,
-            "default_branch": "main",
-            "created_at": "2023-03-23T09:19:22Z",
-            "default_branch_commit_sha": "1139764bf715d848dc5b8b4c8d95e2e734c7e4eb",
-            "commit_time": "2023-05-03T17:08:52Z"
+            ]
         },
         {
             "name": "StylePile",
@@ -190,14 +120,7 @@
             "added": "2022-11-24",
             "tags": [
                 "prompting"
-            ],
-            "full_name": "some9000/StylePile",
-            "github_description": "A prompt generation helper script for AUTOMATIC1111/stable-diffusion-webui and compatible forks",
-            "stars": 491,
-            "default_branch": "main",
-            "created_at": "2022-10-18T13:48:02Z",
-            "default_branch_commit_sha": "85b549a10ff6c5b1604e980cd2107253b088e832",
-            "commit_time": "2023-04-13T18:42:34Z"
+            ]
         },
         {
             "name": "WD 1.4 Tagger",
@@ -207,14 +130,7 @@
             "tags": [
                 "tab",
                 "training"
-            ],
-            "full_name": "toriato/stable-diffusion-webui-wd14-tagger",
-            "github_description": "Labeling extension for Automatic1111's Web UI",
-            "stars": 850,
-            "default_branch": "master",
-            "created_at": "2022-11-17T09:36:17Z",
-            "default_branch_commit_sha": "3ba3a7356447e91c15ffb6d01ca61f878a2292a8",
-            "commit_time": "2023-03-25T20:32:37Z"
+            ]
         },
         {
             "name": "pt_BR Localization",
@@ -223,14 +139,7 @@
             "added": "2022-11-09",
             "tags": [
                 "localization"
-            ],
-            "full_name": "M-art-ucci/stable-diffusion-webui-localization-pt_BR",
-            "github_description": "Brazillian portuguese translation extension for AUTOMATIC1111's stable diffusion webui",
-            "stars": 3,
-            "default_branch": "main",
-            "created_at": "2022-11-09T13:06:08Z",
-            "default_branch_commit_sha": "4bf9054c7f0e3b481cbb9672198f33aff705cce8",
-            "commit_time": "2022-12-19T22:18:03Z"
+            ]
         },
         {
             "name": "Prompt Fusion",
@@ -239,14 +148,7 @@
             "added": "2023-01-28",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "ljleb/prompt-fusion-extension",
-            "github_description": "auto1111 webui extension for all sorts of prompt interpolations!",
-            "stars": 163,
-            "default_branch": "main",
-            "created_at": "2022-12-10T23:19:17Z",
-            "default_branch_commit_sha": "b13617442d99ae77e2bf34a68efad43562f319e7",
-            "commit_time": "2023-07-08T21:21:15Z"
+            ]
         },
         {
             "name": "booru2prompt",
@@ -256,14 +158,7 @@
             "tags": [
                 "tab",
                 "online"
-            ],
-            "full_name": "Malisius/booru2prompt",
-            "github_description": "An extension for stable-diffusion-webui to convert image booru posts into prompts",
-            "stars": 42,
-            "default_branch": "master",
-            "created_at": "2022-11-20T23:57:26Z",
-            "default_branch_commit_sha": "4bd88839a6454428d098c7ad6672cc0989dd6a60",
-            "commit_time": "2022-11-23T14:41:10Z"
+            ]
         },
         {
             "name": "Artists to study",
@@ -273,14 +168,7 @@
             "tags": [
                 "tab",
                 "UI related"
-            ],
-            "full_name": "camenduru/stable-diffusion-webui-artists-to-study",
-            "github_description": null,
-            "stars": 65,
-            "default_branch": "master",
-            "created_at": "2022-10-25T16:07:14Z",
-            "default_branch_commit_sha": "5cd19f68f65e994fc2ef2700bed4d9efe28e48b4",
-            "commit_time": "2023-06-26T08:38:08Z"
+            ]
         },
         {
             "name": "TemporalKit",
@@ -290,14 +178,7 @@
             "tags": [
                 "extras",
                 "animation"
-            ],
-            "full_name": "CiaraStrawberry/TemporalKit",
-            "github_description": "An all in one solution for adding Temporal Stability to a Stable Diffusion Render via an automatic1111 extension",
-            "stars": 1268,
-            "default_branch": "main",
-            "created_at": "2023-04-12T20:58:28Z",
-            "default_branch_commit_sha": "504774d999861ca9d711ece91c78bf9eff5d312f",
-            "commit_time": "2023-05-07T21:37:21Z"
+            ]
         },
         {
             "name": "fi_FI Localization",
@@ -306,14 +187,7 @@
             "added": "2022-12-28",
             "tags": [
                 "localization"
-            ],
-            "full_name": "otsotech/stable-diffusion-webui-localization-fi_FI",
-            "github_description": "Finnish localization for AUTOMATIC1111's [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)",
-            "stars": 0,
-            "default_branch": "main",
-            "created_at": "2022-12-28T13:32:39Z",
-            "default_branch_commit_sha": "7ce182b85d4a5f4f2d217794f2397b8d3b01c647",
-            "commit_time": "2022-12-30T14:05:23Z"
+            ]
         },
         {
             "name": "sd-webui-qrcode-toolkit",
@@ -324,14 +198,7 @@
                 "tab",
                 "editing",
                 "online"
-            ],
-            "full_name": "antfu/sd-webui-qrcode-toolkit",
-            "github_description": "Anthony's QR Toolkit for Stable Diffusion WebUI",
-            "stars": 281,
-            "default_branch": "main",
-            "created_at": "2023-07-02T00:12:37Z",
-            "default_branch_commit_sha": "ce75e181e6a5df1bb05992c4872ac606888d77be",
-            "commit_time": "2023-07-04T17:17:49Z"
+            ]
         },
         {
             "name": "Riffusion",
@@ -340,14 +207,7 @@
             "added": "2022-12-19",
             "tags": [
                 "tab"
-            ],
-            "full_name": "enlyth/sd-webui-riffusion",
-            "github_description": "Riffusion extension for AUTOMATIC1111's SD Web UI",
-            "stars": 147,
-            "default_branch": "master",
-            "created_at": "2022-12-16T02:34:34Z",
-            "default_branch_commit_sha": "82642767fde6e19ec16a84da22966c14be364d9d",
-            "commit_time": "2023-06-05T17:10:00Z"
+            ]
         },
         {
             "name": "Aesthetic Gradients",
@@ -358,14 +218,7 @@
                 "tab",
                 "dropdown",
                 "training"
-            ],
-            "full_name": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
-            "github_description": "Aesthetic gradients extension for web ui",
-            "stars": 335,
-            "default_branch": "master",
-            "created_at": "2022-10-22T09:22:04Z",
-            "default_branch_commit_sha": "2624e5dd4902cb731287b426ad483e741ece85bb",
-            "commit_time": "2023-01-06T10:59:30Z"
+            ]
         },
         {
             "name": "Infinite image browsing",
@@ -375,14 +228,7 @@
             "tags": [
                 "tab",
                 "UI related"
-            ],
-            "full_name": "zanllp/sd-webui-infinite-image-browsing",
-            "github_description": "A fast and powerful image browser for Stable Diffusion webui with infinite scrolling and joint search using image parameters. Viewing images in a matter of milliseconds.",
-            "stars": 331,
-            "default_branch": "main",
-            "created_at": "2023-03-07T18:26:27Z",
-            "default_branch_commit_sha": "275b4850af4586b14a001bf33d8128d5f4f27997",
-            "commit_time": "2023-07-10T04:56:03Z"
+            ]
         },
         {
             "name": "Bilingual Localization",
@@ -391,14 +237,7 @@
             "added": "2023-02-28",
             "tags": [
                 "UI related"
-            ],
-            "full_name": "journey-ad/sd-webui-bilingual-localization",
-            "github_description": "Stable Diffusion web UI bilingual localization extensions. SD WebUI\u53cc\u8bed\u5bf9\u7167\u7ffb\u8bd1\u63d2\u4ef6",
-            "stars": 579,
-            "default_branch": "main",
-            "created_at": "2023-02-26T07:26:55Z",
-            "default_branch_commit_sha": "89a02280507627dc40b5d7562691d1f03208f152",
-            "commit_time": "2023-04-27T03:54:25Z"
+            ]
         },
         {
             "name": "LoRA Block Weight",
@@ -407,14 +246,7 @@
             "added": "2023-02-28",
             "tags": [
                 "models"
-            ],
-            "full_name": "hako-mikan/sd-webui-lora-block-weight",
-            "github_description": null,
-            "stars": 697,
-            "default_branch": "main",
-            "created_at": "2023-01-29T16:37:35Z",
-            "default_branch_commit_sha": "a68ca91fb39dec18ee248a83ea1017dd7dc696c1",
-            "commit_time": "2023-06-19T14:17:48Z"
+            ]
         },
         {
             "name": "SadTalker",
@@ -424,14 +256,7 @@
                 "tab",
                 "animation"
             ],
-            "added": "2023-07-07",
-            "full_name": "OpenTalker/SadTalker",
-            "github_description": "[CVPR 2023] SadTalker\uff1aLearning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
-            "stars": 5139,
-            "default_branch": "main",
-            "created_at": "2022-11-23T02:18:18Z",
-            "default_branch_commit_sha": "ae0b26359d44c9379450a8e02a38b45eeec15549",
-            "commit_time": "2023-07-03T05:48:35Z"
+            "added": "2023-07-07"
         },
         {
             "name": "prompt travel",
@@ -440,14 +265,7 @@
             "added": "2022-11-11",
             "tags": [
                 "animation"
-            ],
-            "full_name": "Kahsolt/stable-diffusion-webui-prompt-travel",
-            "github_description": "Travel between prompts in the latent space to make pseudo-animation, extension script for AUTOMATIC1111/stable-diffusion-webui.",
-            "stars": 149,
-            "default_branch": "main",
-            "created_at": "2022-11-10T14:01:14Z",
-            "default_branch_commit_sha": "98a65237aa9d6f8c52d3861edb83b74b6d133ebb",
-            "commit_time": "2023-07-05T04:40:59Z"
+            ]
         },
         {
             "name": "Stable Diffusion AWS Extension",
@@ -458,14 +276,7 @@
                 "tab",
                 "training",
                 "online"
-            ],
-            "full_name": "awslabs/stable-diffusion-aws-extension",
-            "github_description": "Stable Diffusion AWS Extension User Guide",
-            "stars": 57,
-            "default_branch": "main",
-            "created_at": "2023-05-04T04:23:40Z",
-            "default_branch_commit_sha": "d016b44738143dd84fdbca13648aeb96a533f912",
-            "commit_time": "2023-06-21T06:36:06Z"
+            ]
         },
         {
             "name": "Clip I/O",
@@ -476,14 +287,7 @@
                 "script",
                 "tab",
                 "science"
-            ],
-            "full_name": "Filexor/Clip_IO",
-            "github_description": "Clip I/O extension for Stable Diffusion Web UI",
-            "stars": 12,
-            "default_branch": "main",
-            "created_at": "2023-04-23T12:48:27Z",
-            "default_branch_commit_sha": "a16feffde54d231ba27849366c500a45de309b66",
-            "commit_time": "2023-06-28T02:56:32Z"
+            ]
         },
         {
             "name": "auto-sd-paint-ext",
@@ -492,14 +296,7 @@
             "added": "2022-11-04",
             "tags": [
                 "editing"
-            ],
-            "full_name": "Interpause/auto-sd-paint-ext",
-            "github_description": "Extension for AUTOMATIC1111 to add custom backend API for Krita Plugin & more",
-            "stars": 378,
-            "default_branch": "main",
-            "created_at": "2022-10-28T01:54:07Z",
-            "default_branch_commit_sha": "00714355890aefa9a09e7fdb1f9a136c46a17618",
-            "commit_time": "2023-05-03T12:34:30Z"
+            ]
         },
         {
             "name": "Prompt Generator",
@@ -509,14 +306,7 @@
             "tags": [
                 "tab",
                 "prompting"
-            ],
-            "full_name": "imrayya/stable-diffusion-webui-Prompt_Generator",
-            "github_description": "An extension to AUTOMATIC1111 WebUI for stable diffusion which adds a prompt generator",
-            "stars": 168,
-            "default_branch": "master",
-            "created_at": "2022-12-29T00:40:40Z",
-            "default_branch_commit_sha": "31ec08338b2224432304fb90c459efc9b43a52b3",
-            "commit_time": "2023-05-08T11:29:45Z"
+            ]
         },
         {
             "name": "Aspect Ratio selector",
@@ -525,14 +315,7 @@
             "added": "2023-02-04",
             "tags": [
                 "UI related"
-            ],
-            "full_name": "alemelis/sd-webui-ar",
-            "github_description": "Select img aspect ratio from presets in sd-webui",
-            "stars": 115,
-            "default_branch": "main",
-            "created_at": "2023-02-02T10:36:43Z",
-            "default_branch_commit_sha": "04ee2c6c60ca4534ab7f2d22518a3c5d2001fe83",
-            "commit_time": "2023-07-06T10:14:29Z"
+            ]
         },
         {
             "name": "CFG-Schedule-for-Automatic1111-SD",
@@ -541,14 +324,7 @@
             "added": "2023-03-04",
             "tags": [
                 "script"
-            ],
-            "full_name": "guzuligo/CFG-Schedule-for-Automatic1111-SD",
-            "github_description": "A script for scheduling CFG scale and ETA to change during the denoising steps",
-            "stars": 26,
-            "default_branch": "main",
-            "created_at": "2022-11-12T13:31:11Z",
-            "default_branch_commit_sha": "84892c8892c38f18a2932740c108d68a2c1b4d34",
-            "commit_time": "2023-03-09T10:43:02Z"
+            ]
         },
         {
             "name": "Neutral Prompt",
@@ -557,14 +333,7 @@
             "added": "2023-05-28",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "ljleb/sd-webui-neutral-prompt",
-            "github_description": "Collision-free AND keywords for a1111 webui!",
-            "stars": 77,
-            "default_branch": "main",
-            "created_at": "2023-05-17T15:02:06Z",
-            "default_branch_commit_sha": "2e9cf43ddd67e14be2e07fd47940356ff043d7b6",
-            "commit_time": "2023-07-09T13:45:32Z"
+            ]
         },
         {
             "name": "Auto Translate",
@@ -573,14 +342,7 @@
             "added": "2023-03-24",
             "tags": [
                 "UI related"
-            ],
-            "full_name": "hyd998877/stable-diffusion-webui-auto-translate-language",
-            "github_description": "Language extension allows users to write prompts in their native language and automatically translate UI, without the need to manually download configuration files. New plugins can also be translated.",
-            "stars": 27,
-            "default_branch": "main",
-            "created_at": "2023-03-23T16:49:52Z",
-            "default_branch_commit_sha": "84a0e759f81f7c973a45be8a5911b92cdd043ff4",
-            "commit_time": "2023-05-30T07:04:06Z"
+            ]
         },
         {
             "name": "Depth Maps",
@@ -589,14 +351,7 @@
             "added": "2022-11-30",
             "tags": [
                 "editing"
-            ],
-            "full_name": "thygate/stable-diffusion-webui-depthmap-script",
-            "github_description": "High Resolution Depth Maps for Stable Diffusion WebUI",
-            "stars": 1082,
-            "default_branch": "main",
-            "created_at": "2022-11-03T17:21:15Z",
-            "default_branch_commit_sha": "54193c4fc1d7292fdeb9b08222576017ea142b94",
-            "commit_time": "2023-07-05T21:20:34Z"
+            ]
         },
         {
             "name": "Stable Horde Client",
@@ -606,14 +361,7 @@
             "tags": [
                 "tab",
                 "online"
-            ],
-            "full_name": "natanjunges/stable-diffusion-webui-stable-horde",
-            "github_description": "Stable Horde client for AUTOMATIC1111's Stable Diffusion Web UI",
-            "stars": 65,
-            "default_branch": "main",
-            "created_at": "2022-12-27T18:46:03Z",
-            "default_branch_commit_sha": "00248b89bfab7ba465f104324a5d0708ad37341f",
-            "commit_time": "2023-04-20T19:43:05Z"
+            ]
         },
         {
             "name": "es_ES Localization",
@@ -622,14 +370,7 @@
             "added": "2022-11-09",
             "tags": [
                 "localization"
-            ],
-            "full_name": "innovaciones/stable-diffusion-webui-localization-es_ES",
-            "github_description": "Spanish localization for AUTOMATIC1111's Stable Diffusion Web UI",
-            "stars": 1,
-            "default_branch": "main",
-            "created_at": "2022-11-09T00:35:33Z",
-            "default_branch_commit_sha": "9c8ed17063a5647f1ee471aa97b13edbd2ac9be5",
-            "commit_time": "2022-11-09T00:43:55Z"
+            ]
         },
         {
             "name": "Kandinsky",
@@ -639,14 +380,7 @@
             "tags": [
                 "script",
                 "editing"
-            ],
-            "full_name": "MMqd/kandinsky-for-automatic1111",
-            "github_description": "Automatic1111 extension adding support for Kandinsky 2.1",
-            "stars": 84,
-            "default_branch": "main",
-            "created_at": "2023-06-11T02:39:57Z",
-            "default_branch_commit_sha": "578a3810aa4037ddbb41df905e9ab63cdd638ade",
-            "commit_time": "2023-06-19T00:12:49Z"
+            ]
         },
         {
             "name": "model-keyword",
@@ -655,14 +389,7 @@
             "added": "2022-12-28",
             "tags": [
                 "prompting"
-            ],
-            "full_name": "mix1009/model-keyword",
-            "github_description": "Automatic1111 WEBUI extension to autofill keyword for custom stable diffusion models and LORA models.",
-            "stars": 130,
-            "default_branch": "main",
-            "created_at": "2022-12-01T03:07:53Z",
-            "default_branch_commit_sha": "06c6f5f9020c834ec2f19b6b5951462206f190d8",
-            "commit_time": "2023-07-11T06:00:26Z"
+            ]
         },
         {
             "name": "TiledDiffusion with Tiled VAE",
@@ -671,14 +398,7 @@
             "added": "2023-03-08",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
-            "github_description": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0",
-            "stars": 3085,
-            "default_branch": "main",
-            "created_at": "2023-02-27T14:23:49Z",
-            "default_branch_commit_sha": "de4888103c03d88c0d32af6d453373b47291687a",
-            "commit_time": "2023-06-18T21:39:44Z"
+            ]
         },
         {
             "name": "cafe-aesthetic",
@@ -688,14 +408,7 @@
             "tags": [
                 "tab",
                 "query"
-            ],
-            "full_name": "p1atdev/stable-diffusion-webui-cafe-aesthetic",
-            "github_description": "An extension of cafe_aesthetic for AUTOMATIC1111's Stable Diffusion Web UI",
-            "stars": 25,
-            "default_branch": "main",
-            "created_at": "2023-01-23T01:22:15Z",
-            "default_branch_commit_sha": "d1c7ee842736f9d9cc6564c2c92a5bff54d19e26",
-            "commit_time": "2023-03-26T13:36:41Z"
+            ]
         },
         {
             "name": "Regional Prompter",
@@ -704,14 +417,7 @@
             "added": "2023-03-26",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "hako-mikan/sd-webui-regional-prompter",
-            "github_description": "set prompt to divided region",
-            "stars": 672,
-            "default_branch": "main",
-            "created_at": "2023-03-19T14:46:35Z",
-            "default_branch_commit_sha": "18a512a99bdc51e24f5ef59622e96cdf798b1216",
-            "commit_time": "2023-07-01T14:41:22Z"
+            ]
         },
         {
             "name": "sd-canvas-editor",
@@ -721,14 +427,7 @@
             "tags": [
                 "tab",
                 "online"
-            ],
-            "full_name": "jtydhr88/sd-canvas-editor",
-            "github_description": "A custom extension for sd-webui that integrated a full capability canvas editor which you can use layer, text, image, elements, etc",
-            "stars": 102,
-            "default_branch": "master",
-            "created_at": "2023-04-13T11:32:28Z",
-            "default_branch_commit_sha": "12e7f72cdccb3ede788aa3a6f81e5c060638842d",
-            "commit_time": "2023-06-30T01:16:49Z"
+            ]
         },
         {
             "name": "Batch Face Swap",
@@ -737,14 +436,7 @@
             "added": "2023-01-13",
             "tags": [
                 "editing"
-            ],
-            "full_name": "kex0/batch-face-swap",
-            "github_description": "Automaticaly detects faces and replaces them",
-            "stars": 252,
-            "default_branch": "main",
-            "created_at": "2023-01-11T04:09:21Z",
-            "default_branch_commit_sha": "b6fdff6549f79dbfb924c150dd54a9642164e876",
-            "commit_time": "2023-05-28T00:23:36Z"
+            ]
         },
         {
             "name": "Discord Rich Presence",
@@ -753,14 +445,7 @@
             "added": "2023-01-20",
             "tags": [
                 "online"
-            ],
-            "full_name": "kabachuha/discord-rpc-for-automatic1111-webui",
-            "github_description": "Silent extension (no tab) for AUTOMATIC1111's Stable Diffusion WebUI adding connection to Discord RPC, so it would show a fancy table in the Discord profile.",
-            "stars": 15,
-            "default_branch": "main",
-            "created_at": "2023-01-20T20:19:01Z",
-            "default_branch_commit_sha": "040d70a803404a3fb5cf9b747da9f3def9836085",
-            "commit_time": "2023-06-12T16:00:34Z"
+            ]
         },
         {
             "name": "Inpaint Anything",
@@ -771,14 +456,7 @@
                 "tab",
                 "editing",
                 "manipulations"
-            ],
-            "full_name": "Uminosachi/sd-webui-inpaint-anything",
-            "github_description": "Inpaint Anything extension performs stable diffusion inpainting on a browser UI using masks from Segment Anything.",
-            "stars": 358,
-            "default_branch": "main",
-            "created_at": "2023-04-16T01:46:03Z",
-            "default_branch_commit_sha": "e4735315ca9d1e2afd09ba8a800947a4049ee66a",
-            "commit_time": "2023-07-08T03:16:01Z"
+            ]
         },
         {
             "name": "Negative Prompt Weight",
@@ -789,14 +467,7 @@
                 "script",
                 "manipulations",
                 "prompting"
-            ],
-            "full_name": "muerrilla/stable-diffusion-NPW",
-            "github_description": "Negative Prompt Weight: Extension for Stable Diffusion Web UI",
-            "stars": 76,
-            "default_branch": "main",
-            "created_at": "2023-04-01T13:47:06Z",
-            "default_branch_commit_sha": "35b1c572cc8d08cbb7b7b5b3bf16b7c6078a483b",
-            "commit_time": "2023-07-02T16:04:19Z"
+            ]
         },
         {
             "name": "Lobe Theme",
@@ -805,14 +476,7 @@
             "added": "2023-06-28",
             "tags": [
                 "UI related"
-            ],
-            "full_name": "canisminor1990/sd-webui-lobe-theme",
-            "github_description": "\ud83e\udd2f Lobe theme - the modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme",
-            "stars": 899,
-            "default_branch": "main",
-            "created_at": "2023-02-25T06:41:18Z",
-            "default_branch_commit_sha": "d4c4a48e8025d32b202716d4ab8d806580752256",
-            "commit_time": "2023-07-10T13:13:25Z"
+            ]
         },
         {
             "name": "Save Intermediate Images",
@@ -821,14 +485,7 @@
             "added": "2022-12-22",
             "tags": [
                 "script"
-            ],
-            "full_name": "AlUlkesh/sd_save_intermediate_images",
-            "github_description": "Save intermediate images during the sampling process",
-            "stars": 85,
-            "default_branch": "main",
-            "created_at": "2022-12-15T23:55:02Z",
-            "default_branch_commit_sha": "8115a847d35312fd65d6acdb367f3addc22d0eb5",
-            "commit_time": "2023-03-27T13:58:26Z"
+            ]
         },
         {
             "name": "Model Converter",
@@ -838,14 +495,7 @@
             "tags": [
                 "tab",
                 "models"
-            ],
-            "full_name": "Akegarasu/sd-webui-model-converter",
-            "github_description": "model convert extension for stable-diffusion-webui. supports convert fp16/bf16 no-ema/ema-only safetensors",
-            "stars": 193,
-            "default_branch": "main",
-            "created_at": "2023-01-05T03:50:13Z",
-            "default_branch_commit_sha": "2a3834d769d6c71b2125b56abe6b378ef75a6728",
-            "commit_time": "2023-06-28T13:41:44Z"
+            ]
         },
         {
             "name": "Inspiration",
@@ -855,14 +505,7 @@
             "tags": [
                 "tab",
                 "UI related"
-            ],
-            "full_name": "yfszzx/stable-diffusion-webui-inspiration",
-            "github_description": null,
-            "stars": 97,
-            "default_branch": "main",
-            "created_at": "2022-10-20T14:21:15Z",
-            "default_branch_commit_sha": "0f3f699decfadcf88d7483d214877fbf96f1f488",
-            "commit_time": "2022-12-09T03:50:47Z"
+            ]
         },
         {
             "name": "ebsynth_utility",
@@ -872,14 +515,7 @@
             "tags": [
                 "tab",
                 "animation"
-            ],
-            "full_name": "s9roll7/ebsynth_utility",
-            "github_description": "AUTOMATIC1111 UI extension for creating videos using img2img and ebsynth.",
-            "stars": 678,
-            "default_branch": "main",
-            "created_at": "2022-12-29T12:10:49Z",
-            "default_branch_commit_sha": "44c18e0ebf398e04cd318878f8fc5674950af809",
-            "commit_time": "2023-05-31T07:02:22Z"
+            ]
         },
         {
             "name": "Lua",
@@ -889,14 +525,7 @@
             "tags": [
                 "tab",
                 "science"
-            ],
-            "full_name": "yownas/sd-webui-lua",
-            "github_description": "Generate images with Lua in Stable Diffusion webui",
-            "stars": 25,
-            "default_branch": "main",
-            "created_at": "2023-04-21T19:08:39Z",
-            "default_branch_commit_sha": "549d200a05d40084a904c3f9efcb4f3ced96e11b",
-            "commit_time": "2023-06-30T18:01:50Z"
+            ]
         },
         {
             "name": "Embeddings editor",
@@ -906,14 +535,7 @@
             "tags": [
                 "tab",
                 "models"
-            ],
-            "full_name": "CodeExplode/stable-diffusion-webui-embedding-editor",
-            "github_description": "Embedding editor extension for web ui",
-            "stars": 46,
-            "default_branch": "main",
-            "created_at": "2022-11-06T07:36:50Z",
-            "default_branch_commit_sha": "c8f290230f9360729abc3a3a57fe1befc2d43b23",
-            "commit_time": "2022-12-04T04:55:54Z"
+            ]
         },
         {
             "name": "Kohya-ss Additional Networks",
@@ -922,14 +544,7 @@
             "added": "2023-01-06",
             "tags": [
                 "models"
-            ],
-            "full_name": "kohya-ss/sd-webui-additional-networks",
-            "github_description": null,
-            "stars": 1294,
-            "default_branch": "main",
-            "created_at": "2022-12-27T09:03:08Z",
-            "default_branch_commit_sha": "e9f3d622b5a98650008a685ea23b27eb810da35a",
-            "commit_time": "2023-05-23T12:31:15Z"
+            ]
         },
         {
             "name": "Auto TLS-HTTPS",
@@ -938,14 +553,7 @@
             "added": "2022-11-14",
             "tags": [
                 "script"
-            ],
-            "full_name": "papuSpartan/stable-diffusion-webui-auto-tls-https",
-            "github_description": "An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS",
-            "stars": 44,
-            "default_branch": "master",
-            "created_at": "2022-11-12T09:49:16Z",
-            "default_branch_commit_sha": "c0549f8548b68b2370f8651cb702f6723320bc22",
-            "commit_time": "2023-06-03T08:49:41Z"
+            ]
         },
         {
             "name": "tokenizer",
@@ -955,14 +563,7 @@
             "tags": [
                 "tab",
                 "prompting"
-            ],
-            "full_name": "AUTOMATIC1111/stable-diffusion-webui-tokenizer",
-            "github_description": "An extension for stable-diffusion-webui that adds a tab that lets you preview how CLIP model would tokenize your text.",
-            "stars": 100,
-            "default_branch": "master",
-            "created_at": "2022-11-05T09:42:06Z",
-            "default_branch_commit_sha": "ac6d541c7032e9f9c69c8ead2ed201302b06a4fe",
-            "commit_time": "2022-12-10T12:58:31Z"
+            ]
         },
         {
             "name": "Merge Board",
@@ -972,14 +573,7 @@
             "tags": [
                 "tab",
                 "models"
-            ],
-            "full_name": "bbc-mc/sdweb-merge-board",
-            "github_description": "Multi-step automation merge tool. Extension/Script for Stable Diffusion UI by AUTOMATIC1111 https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-            "stars": 55,
-            "default_branch": "master",
-            "created_at": "2022-11-07T16:25:50Z",
-            "default_branch_commit_sha": "c4eeb1607b84dc3149b39eec16f20a84c7108beb",
-            "commit_time": "2023-05-10T12:15:00Z"
+            ]
         },
         {
             "name": "Custom Diffusion",
@@ -989,14 +583,7 @@
             "tags": [
                 "tab",
                 "training"
-            ],
-            "full_name": "guaneec/custom-diffusion-webui",
-            "github_description": "An unofficial implementation of Custom Diffusion for Automatic1111's WebUI.",
-            "stars": 56,
-            "default_branch": "master",
-            "created_at": "2023-01-18T03:51:21Z",
-            "default_branch_commit_sha": "006e46f6f19526cd84d3041664c6deed55036225",
-            "commit_time": "2023-05-14T02:45:38Z"
+            ]
         },
         {
             "name": "Detection Detailer",
@@ -1005,14 +592,7 @@
             "added": "2022-11-09",
             "tags": [
                 "editing"
-            ],
-            "full_name": "dustysys/ddetailer",
-            "github_description": null,
-            "stars": 299,
-            "default_branch": "master",
-            "created_at": "2022-11-06T12:42:22Z",
-            "default_branch_commit_sha": "22a17414bbca1fa4681d427b8aae5f970d17e896",
-            "commit_time": "2022-11-28T09:33:31Z"
+            ]
         },
         {
             "name": "Styles Editor",
@@ -1023,14 +603,7 @@
                 "tab",
                 "UI related",
                 "prompting"
-            ],
-            "full_name": "chrisgoringe/Styles-Editor",
-            "github_description": "Simple editor for styles in Automatic1111",
-            "stars": 32,
-            "default_branch": "main",
-            "created_at": "2023-05-28T11:19:38Z",
-            "default_branch_commit_sha": "756607cdea8617d1656c0676a83a25924e45f72b",
-            "commit_time": "2023-07-09T03:35:53Z"
+            ]
         },
         {
             "name": "Extension Name",
@@ -1064,14 +637,7 @@
             "tags": [
                 "tab"
             ],
-            "added": "2023-06-30",
-            "full_name": "jtydhr88/sd-webui-3d-editor",
-            "github_description": "A custom extension for sd-webui that with 3D modeling features (add/edit basic elements, load your custom model, modify scene and so on), then send screenshot to txt2img or img2img as your ControlNet's reference image, basing on ThreeJS editor",
-            "stars": 76,
-            "default_branch": "master",
-            "created_at": "2023-06-30T00:17:21Z",
-            "default_branch_commit_sha": "687adb0b401b8c679404c8e3e68888ed57446cb5",
-            "commit_time": "2023-07-06T02:27:16Z"
+            "added": "2023-06-30"
         },
         {
             "name": "sd-webui-segment-anything",
@@ -1081,14 +647,7 @@
             "tags": [
                 "script",
                 "dropdown"
-            ],
-            "full_name": "continue-revolution/sd-webui-segment-anything",
-            "github_description": "Segment Anything for Stable Diffusion WebUI",
-            "stars": 2086,
-            "default_branch": "master",
-            "created_at": "2023-04-10T13:52:55Z",
-            "default_branch_commit_sha": "ffe263155d7f3ac4ee23a96262ecb77b9899ed95",
-            "commit_time": "2023-06-28T18:49:49Z"
+            ]
         },
         {
             "name": "text2video",
@@ -1098,14 +657,7 @@
             "tags": [
                 "tab",
                 "animation"
-            ],
-            "full_name": "kabachuha/sd-webui-text2video",
-            "github_description": "Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies",
-            "stars": 934,
-            "default_branch": "main",
-            "created_at": "2023-03-19T20:40:23Z",
-            "default_branch_commit_sha": "3f4a109a69599d8d2209c60b966d1cf9ea946239",
-            "commit_time": "2023-07-03T09:05:18Z"
+            ]
         },
         {
             "name": "Visualize Cross-Attention",
@@ -1115,14 +667,7 @@
             "tags": [
                 "tab",
                 "science"
-            ],
-            "full_name": "benkyoujouzu/stable-diffusion-webui-visualize-cross-attention-extension",
-            "github_description": null,
-            "stars": 67,
-            "default_branch": "master",
-            "created_at": "2022-11-25T04:01:53Z",
-            "default_branch_commit_sha": "5fb1e8f80a13b08b6a4d63b880a9b07f8ddfdef5",
-            "commit_time": "2022-12-11T13:57:13Z"
+            ]
         },
         {
             "name": "Smart Process",
@@ -1133,14 +678,7 @@
                 "tab",
                 "editing",
                 "training"
-            ],
-            "full_name": "d8ahazard/sd_smartprocess",
-            "github_description": "Smart Pre-processing extension for Stable Diffusion",
-            "stars": 139,
-            "default_branch": "main",
-            "created_at": "2022-11-11T20:34:48Z",
-            "default_branch_commit_sha": "41fb35ef712e01829f1d1ab53a78f6ec45cba1df",
-            "commit_time": "2023-01-22T17:30:02Z"
+            ]
         },
         {
             "name": "quick-css",
@@ -1150,14 +688,7 @@
             "tags": [
                 "tab",
                 "UI related"
-            ],
-            "full_name": "Gerschel/sd-web-ui-quickcss",
-            "github_description": "I just setup a quick css apply using the style here https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5813 This is a tool for designers to worry more about designing their css, rather than worry about how to manage them for sd-web-ui",
-            "stars": 48,
-            "default_branch": "master",
-            "created_at": "2022-12-19T21:44:12Z",
-            "default_branch_commit_sha": "c7a7d097fe0c949c2699febb8cf058ff4137c0c0",
-            "commit_time": "2023-04-26T18:17:08Z"
+            ]
         },
         {
             "name": "Dreambooth",
@@ -1167,14 +698,7 @@
             "tags": [
                 "tab",
                 "training"
-            ],
-            "full_name": "d8ahazard/sd_dreambooth_extension",
-            "github_description": null,
-            "stars": 1478,
-            "default_branch": "main",
-            "created_at": "2022-11-06T02:40:44Z",
-            "default_branch_commit_sha": "c2a5617c587b812b5a408143ddfb18fc49234edf",
-            "commit_time": "2023-07-08T13:35:47Z"
+            ]
         },
         {
             "name": "Model toolkit",
@@ -1184,14 +708,7 @@
             "tags": [
                 "tab",
                 "models"
-            ],
-            "full_name": "arenasys/stable-diffusion-webui-model-toolkit",
-            "github_description": "A Multipurpose toolkit for managing, editing and creating models.",
-            "stars": 355,
-            "default_branch": "master",
-            "created_at": "2023-01-05T05:29:13Z",
-            "default_branch_commit_sha": "4d8fea77dba5643439691c1c6b003db4d330ff0b",
-            "commit_time": "2023-05-14T09:09:42Z"
+            ]
         },
         {
             "name": "Animator",
@@ -1201,14 +718,7 @@
             "tags": [
                 "tab",
                 "animation"
-            ],
-            "full_name": "Animator-Anon/animator_extension",
-            "github_description": "Extension version of Animator script",
-            "stars": 58,
-            "default_branch": "main",
-            "created_at": "2023-02-02T05:59:56Z",
-            "default_branch_commit_sha": "27ce31b0d34820d7e1bf74b22c07f2885d52ffc3",
-            "commit_time": "2023-06-20T19:51:39Z"
+            ]
         },
         {
             "name": "Agent Scheduler",
@@ -1217,14 +727,7 @@
             "added": "2023-06-23",
             "tags": [
                 "tab"
-            ],
-            "full_name": "ArtVentureX/sd-webui-agent-scheduler",
-            "github_description": null,
-            "stars": 208,
-            "default_branch": "main",
-            "created_at": "2023-05-16T04:35:16Z",
-            "default_branch_commit_sha": "e4767fac5850376ce3bc7bd76bc60d08172b10ca",
-            "commit_time": "2023-07-11T03:44:56Z"
+            ]
         },
         {
             "name": "no_NO Localization",
@@ -1233,14 +736,7 @@
             "added": "2022-11-16",
             "tags": [
                 "localization"
-            ],
-            "full_name": "Cyanz83/stable-diffusion-webui-localization-no_NO",
-            "github_description": "Norwegian localization for AUTOMATIC1111's [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)",
-            "stars": 0,
-            "default_branch": "main",
-            "created_at": "2022-11-15T23:06:01Z",
-            "default_branch_commit_sha": "a66a0a674301c713959f534ee2446333634c5123",
-            "commit_time": "2022-11-15T23:08:10Z"
+            ]
         },
         {
             "name": "sd-webui-controlnet",
@@ -1249,14 +745,7 @@
             "added": "2023-02-18",
             "tags": [
                 "manipulations"
-            ],
-            "full_name": "Mikubill/sd-webui-controlnet",
-            "github_description": "WebUI extension for ControlNet",
-            "stars": 11105,
-            "default_branch": "main",
-            "created_at": "2023-02-12T16:26:27Z",
-            "default_branch_commit_sha": "07bed6ccf8a468a45b2833cfdadc749927cbd575",
-            "commit_time": "2023-07-08T20:54:01Z"
+            ]
         },
         {
             "name": "Image browser",
@@ -1266,14 +755,7 @@
             "tags": [
                 "tab",
                 "UI related"
-            ],
-            "full_name": "AlUlkesh/stable-diffusion-webui-images-browser",
-            "github_description": "an images browse for stable-diffusion-webui",
-            "stars": 380,
-            "default_branch": "main",
-            "created_at": "2023-01-14T16:20:37Z",
-            "default_branch_commit_sha": "b2f6e4cbe507078e3bf2b9d5fce6f83e2e233aa8",
-            "commit_time": "2023-06-08T08:11:43Z"
+            ]
         },
         {
             "name": "IF_prompt_MKR",
@@ -1283,14 +765,7 @@
                 "script",
                 "prompting"
             ],
-            "added": "2023-06-30",
-            "full_name": "if-ai/IF_prompt_MKR",
-            "github_description": "An A1111 extension to let the AI make prompts for SD using Oobabooga",
-            "stars": 9,
-            "default_branch": "main",
-            "created_at": "2023-06-05T07:47:20Z",
-            "default_branch_commit_sha": "17378d4fd186c1f50adb19becaa9d604a3ee3843",
-            "commit_time": "2023-06-30T11:03:05Z"
+            "added": "2023-06-30"
         },
         {
             "name": "Prompt Translator",
@@ -1299,14 +774,7 @@
             "added": "2023-03-28",
             "tags": [
                 "prompting"
-            ],
-            "full_name": "ParisNeo/prompt_translator",
-            "github_description": "A stable diffusion extension for translating prompts from 50 languages. The objective is to give users the possibility to use their own language to perform text prompting.",
-            "stars": 109,
-            "default_branch": "main",
-            "created_at": "2023-03-27T09:46:46Z",
-            "default_branch_commit_sha": "40ec74c86589dc43182328d45cce031a0a42468d",
-            "commit_time": "2023-05-05T18:42:11Z"
+            ]
         },
         {
             "name": "Discord - Dynamic Rich Presence",
@@ -1316,14 +784,7 @@
             "tags": [
                 "online",
                 "script"
-            ],
-            "full_name": "davehornik/sd-discord-rich_presence",
-            "github_description": "Discord Rich Presence  for AUTOMATIC1111's Stable Diffusion WebUI",
-            "stars": 18,
-            "default_branch": "master",
-            "created_at": "2023-03-31T23:41:23Z",
-            "default_branch_commit_sha": "42edc8ce06b7cd0b9cbc2eb9322b197086a2ee9e",
-            "commit_time": "2023-06-03T16:10:33Z"
+            ]
         },
         {
             "name": "Booru tag autocompletion",
