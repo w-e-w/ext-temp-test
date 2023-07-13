@@ -48,11 +48,11 @@ jobs:
 
         - name: Get last commit message - extensions
           id: last-commit-message-extensions
-          run: echo "msg=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+          run: echo "msg=$(git -C extensions log -1 --pretty=%s)" >> $GITHUB_OUTPUT
 
         - name: Get last commit message - master
           id: last-commit-message-master
-          run: echo "msg=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+          run: echo "msg=$(git -C master log -1 --pretty=%s)" >> $GITHUB_OUTPUT
 
         - name: Commit - extensions
           uses: stefanzweifel/git-auto-commit-action@v4
