@@ -12,6 +12,9 @@ jobs:
         if: github.event.repository.fork == false
         steps:
 
+        - name: Checkout master
+          uses: actions/checkout@v3
+
         - run: git branch --show-current
 
         - name: Checkout master
