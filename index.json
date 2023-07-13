@@ -1315,15 +1315,6 @@
             ]
         },
         {
-            "name": "gif2gif",
-            "url": "https://github.com/LonicaMewinsky/gif2gif.git",
-            "description": "A script for img2img that extract a gif frame by frame for img2img generation and recombine them back into an animated gif",
-            "added": "2023-02-09",
-            "tags": [
-                "animation"
-            ]
-        },
-        {
             "name": "Dynamic Prompts",
             "url": "https://github.com/adieyal/sd-dynamic-prompts.git",
             "description": "Implements an expressive template language for random or combinatorial prompt generation along with features to support deep wildcard directory structures.",
