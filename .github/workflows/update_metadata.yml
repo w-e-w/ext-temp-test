@@ -9,12 +9,23 @@ permissions:
     contents: write
 
 jobs:
-    build-extension-index-jobs:
+    update-metadata:
         runs-on: ubuntu-latest
 
         steps:
-        - name: Checkout
+        - name: Checkout extensions
           uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+            ref: 'extensions'
+            path: extensions
+
+        - name: Checkout master
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+            ref: 'master'
+            path: master
 
         - name: Setup python
           uses: actions/setup-python@v4
@@ -22,4 +33,4 @@ jobs:
             python-version: '3.11'
 
         - name: Update extension metadata
-          run: python -B ./update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }}
+          run: python -B extensions/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }}

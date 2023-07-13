@@ -5,6 +5,7 @@ name: Validate json
   push:
     branches-ignore:
       - master
+      - extensions
     paths:
       - 'extensions/**.json'
       - 'tags.json'

@@ -1,14 +1,16 @@
+import re
 import json
-from pathlib import Path
 import datetime
-from re import compile
+from argparse import ArgumentParser
+from pathlib import Path
 from collections import Counter
 
-script_dir = Path(__file__).parent
-git_url_pattern = compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
 
-def validate_index():
-    with open(script_dir.joinpath('index.json')) as inf:
+script_dir = Path(__file__).parent
+git_url_pattern = re.compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
+
+def validate_index(index_path: str):
+    with open(index_path) as inf:
         d = json.load(inf)
         assert "tags" in d
 
@@ -24,16 +26,11 @@ def validate_index():
             ]:
                 assert required_key in extension, f"missing key: {required_key}"
 
-            for _tag in extension["tags"]:
-                assert _tag in tags
+            for tag in extension["tags"]:
+                assert tag in tags_keys, f'{extension["url"]} tag: "{str(tag)}" is not a valid tag'
 
             datetime.date.fromisoformat(extension['added']), "Incorrect data format, should be YYYY-MM-DD"
 
-
-with open(script_dir.joinpath('tags.json'), 'r') as f:
-    tags = json.load(f)
-
-tags_keys = tags.keys()
 
 def validate_entry(file: Path):
 
@@ -47,8 +44,8 @@ def validate_entry(file: Path):
     ]:
         assert required_key in extension, f"{file} missing key: {required_key}"
 
-    for _tag in extension["tags"]:
-        assert _tag in tags, f'{file} tag: "{str(_tag)}" is not a valid tag'
+    for tag in extension["tags"]:
+        assert tag in tags_keys, f'{file} tag: "{str(tag)}" is not a valid tag'
 
     if extension.get('added'):
         try:
@@ -60,19 +57,28 @@ def validate_entry(file: Path):
     return git_url.group(1)
 
 
-def validate_extension_entrys():
+def validate_extension_entrys(ext_dir: str):
     urls = []
-    for f in Path(script_dir.joinpath('extensions')).iterdir():
-        if f.is_file() and f.suffix.lower() == '.json':        
+    for f in Path(ext_dir).iterdir():
+        if f.is_file() and f.suffix.lower() == '.json':
             urls.append(validate_entry(f))
     counts = Counter(urls)
     duplicates = [element for element, count in counts.items() if count > 1]
     assert len(duplicates) == 0, f'duplicate extension: {duplicates}'
 
 
-def validate():
-    validate_index()
-    validate_extension_entrys()
-
 if __name__ == "__main__":
-    validate()
+    parser = ArgumentParser()
+    parser.add_argument("--index", "-i", type=str, default='index.json', required=False)
+    parser.add_argument("--extensions-dir", "-e", type=str, default='extensions', required=False)
+    parser.add_argument("--tags", "-t", type=str, default='tags.json', required=False)
+    args = parser.parse_args()
+
+    with open(script_dir.joinpath('tags.json'), 'r') as f:
+        tags_keys = json.load(f).keys()
+
+    if args.extensions_dir:
+        validate_extension_entrys(args.extensions_dir)
+
+    if args.index:
+        validate_index(args.index)
