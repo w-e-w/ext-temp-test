@@ -1,0 +1,10 @@
+{
+    "name": "ccccc",
+    "url": "https://cccc.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer.git",
+    "description": "Adds a tab that lets you preview how CLIP model would tokenize your text.",
+    "tags": [
+        "tab",
+        "prompting"
+    ],
+    "added": "2023-07-13"
+}
