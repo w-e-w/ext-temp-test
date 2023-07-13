@@ -26,7 +26,7 @@ def read_extension(file: Path):
     return extension
 
 
-def update_index(index_path: str, exts: dict, tags: dict):
+def update_index(index_path: Path, exts: dict, tags: dict):
     with open(index_path, 'r') as f:
         existing_extensions = {extension['url']: extension for extension in json.load(f)['extensions']}
 
@@ -45,21 +45,18 @@ def update_index(index_path: str, exts: dict, tags: dict):
 
 
 if __name__ == "__main__":
-    import os
-    print(os.getcwd())
-    with open('extensions/tags.json', 'r') as f:
+
+    with open(Path('./extensions/tags.json'), 'r') as f:
         tags = json.load(f)
 
     tags_keys = tags.keys()
 
     extensions = {}
-    for f in Path('extensions/extensions').iterdir():
+    for f in Path('./extensions/extensions').iterdir():
         if f.is_file() and f.suffix.lower() == '.json':        
             extension = read_extension(f)
             extensions[extension['url']] = extension
 
-    # switch to extensions branch
-
-    update_index('extensions/index.json', extensions, tags)
-    extension_index = update_index('master/index.json', extensions, tags)
-    #print(f'{len(tags)} tags, {len(extension_index.get("extensions_list"))} extensions')
+    update_index(Path('./extensions/index.json'), extensions, tags)
+    extension_index = update_index(Path('./master/index.json'), extensions, tags)
+    print(f'{len(tags)} tags, {len(extension_index.get("extensions_list"))} extensions')
