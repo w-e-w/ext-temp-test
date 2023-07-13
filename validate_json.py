@@ -27,7 +27,7 @@ def validate_index(index_path: str):
                 assert required_key in extension, f"missing key: {required_key}"
 
             for tag in extension["tags"]:
-                assert tag in tags_keys, f'{extension["url"]} tag: "{str(tag)}" is not a valid tag'
+                assert tag in tags, f'{extension["url"]} tag: "{str(tag)}" is not a valid tag'
 
             datetime.date.fromisoformat(extension['added']), "Incorrect data format, should be YYYY-MM-DD"
 

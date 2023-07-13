@@ -58,7 +58,6 @@ if __name__ == "__main__":
     # read tads
     with open(Path('./extensions/tags.json'), 'r') as f:
         tags = json.load(f)
-        tags_keys = tags.keys()
 
     # read entries
     extensions = read_extension_dir()
