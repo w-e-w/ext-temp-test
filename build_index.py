@@ -62,4 +62,4 @@ if __name__ == "__main__":
 
     update_index('extensions/index.json', extensions, tags)
     extension_index = update_index('master/index.json', extensions, tags)
-    print(f'{len(tags)} tags, {len(extension_index.get("extensions_list"))} extensions')
+    #print(f'{len(tags)} tags, {len(extension_index.get("extensions_list"))} extensions')
