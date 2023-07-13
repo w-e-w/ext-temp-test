@@ -45,7 +45,8 @@ def update_index(index_path: str, exts: dict, tags: dict):
 
 
 if __name__ == "__main__":
-
+    import os
+    print(os.getcwd())
     with open('extensions/tags.json', 'r') as f:
         tags = json.load(f)
 
