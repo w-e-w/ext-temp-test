@@ -1,0 +1,37 @@
+name: Build index
+
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - extensions
+      paths:
+        - 'extensions/**.json'
+        - 'tags.json'
+        - 'index.json'
+
+permissions:
+    contents: write
+
+jobs:
+    build-extension-index-jobs:
+        runs-on: ubuntu-latest
+        if: github.event.repository.fork == false
+        steps:
+        - name: Checkout master
+          uses: actions/checkout@v3
+          with:
+            ref: 'master'
+
+        - name: Checkout extensions
+          uses: actions/checkout@v3
+          with:
+            ref: 'extensions'
+
+        - name: Setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.11'
+
+        - name: Build extension index
+          run: python -B ./build_index.py

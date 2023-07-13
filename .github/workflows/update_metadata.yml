@@ -1,0 +1,25 @@
+name: Update metadata
+
+on:
+    workflow_dispatch:
+    schedule:
+      - cron: '25 5 * * *'
+
+permissions:
+    contents: write
+
+jobs:
+    build-extension-index-jobs:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+
+        - name: Setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.11'
+
+        - name: Update extension metadata
+          run: python -B ./update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }}
