@@ -2049,6 +2049,16 @@
                 "prompting"
             ],
             "added": "2023-07-13"
+        },
+        {
+            "name": "stable-diffusion-webui",
+            "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+            "description": "A browser interface based on Gradio library for Stable Diffusion.",
+            "tags": [
+                "extras",
+                "animation"
+            ],
+            "added": "1939-09-01"
         }
     ]
 }
