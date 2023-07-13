@@ -46,19 +46,19 @@ def update_index(index_path: str, exts: dict, tags: dict):
 
 if __name__ == "__main__":
 
-    with open('tags.json', 'r') as f:
+    with open('extensions/tags.json', 'r') as f:
         tags = json.load(f)
 
     tags_keys = tags.keys()
 
     extensions = {}
-    for f in Path('extensions').iterdir():
+    for f in Path('extensions/extensions').iterdir():
         if f.is_file() and f.suffix.lower() == '.json':        
             extension = read_extension(f)
             extensions[extension['url']] = extension
 
     # switch to extensions branch
 
-    update_index('index.json', extensions, tags)
-    extension_index = update_index('../master/index.json', extensions, tags)
+    update_index('extensions/index.json', extensions, tags)
+    extension_index = update_index('master/index.json', extensions, tags)
     print(f'{len(tags)} tags, {len(extension_index.get("extensions_list"))} extensions')
