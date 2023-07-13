@@ -29,18 +29,19 @@ def read_extension(file: Path):
 
 def read_extension_dir():
     extensions = {}
-    for f in Path('./extensions/extensions').iterdir():
+    for f in Path('extensions/extensions').iterdir():
         if f.is_file() and f.suffix.lower() == '.json':        
             extension = read_extension(f)
             extensions[extension['url']] = extension
     return extensions
 
 
-def update_index(index_path: Path, exts: dict, tags: dict):
+def update_index(exts: dict, tags: dict):
+    # update existing remove removed and add new extensions
+    index_path = Path('extensions/index.json')
     with open(index_path, 'r') as f:
         existing_extensions = {extension['url']: extension for extension in json.load(f)['extensions']}
 
-    # update existing remove removed and add new extensions
     for extensions_url, extension in exts.items():
         if extensions_url in existing_extensions.keys():
             existing_extensions[extensions_url].update(extension)
@@ -54,21 +55,42 @@ def update_index(index_path: Path, exts: dict, tags: dict):
     return extension_index
 
 
+def update_master_index(index: dict):
+    # add keys from master/index that are not in extensions/tags to extensions/tags as new master/index
+    master_index_path = Path('master/index.json')
+    with open(master_index_path, 'r') as f:
+        master_exts = {extension['url']: extension for extension in json.load(f)['extensions']}
+
+    index_ext = {extension['url']: extension for extension in index['extensions']}
+    index_ext_urls = index_ext.keys()
+    for master_ext_url, master_ext in master_exts.items():
+        if master_ext_url in index_ext_urls:
+            index_ext_keys = index_ext[master_ext_url].keys()
+            for master_exts_key in master_ext.keys():
+                if master_exts_key not in index_ext_keys:
+                    index_ext[master_ext_url][master_exts_key] = master_ext[master_exts_key]
+
+    new_master_index = {'tags': index['tags'], 'extensions': list(index_ext.values())}
+    with open(master_index_path, 'w') as f:
+        json.dump(new_master_index, f, indent=4)
+    return new_master_index
+
+
 if __name__ == "__main__":
     # read tads
-    with open(Path('./extensions/tags.json'), 'r') as f:
+    with open(Path('extensions/tags.json'), 'r') as f:
         tags = json.load(f)
 
     # read entries
     extensions = read_extension_dir()
 
     # update indexs
-    extension_index_ext = update_index(Path('./extensions/index.json'), extensions, tags)
-    extension_index_master = update_index(Path('./master/index.json'), extensions, tags)
+    extension_index_ext = update_index(Path('extensions/index.json'), extensions, tags)
+    extension_index_master = update_master_index(extension_index_ext)
 
     # validate
-    validate_json.validate_index('./extensions/index.json')
-    validate_json.validate_index('./master/index.json')
+    validate_json.validate_index('extensions/index.json')
+    validate_json.validate_index('master/index.json')
 
     assert len(extension_index_ext["extensions"]) == len(extension_index_master["extensions"]), f'entry count mismatch: {len(extension_index_ext["extensions"])} {len(extension_index_master["extensions"])}'
     print(f'{len(tags)} tags, {len(extension_index_ext["extensions"])} extensions')    
