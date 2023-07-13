@@ -19,7 +19,7 @@ name: Validate json
       - 'extensions/**.json'
       - 'tags.json'
       - 'index.json'
-    
+
 jobs:
   validate-json:
     strategy:
