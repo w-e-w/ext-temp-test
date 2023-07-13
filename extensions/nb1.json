@@ -1,0 +1,11 @@
+{
+    "name": "nb1",
+    "url": "https://nb1.com/<OWNER>/<REPO>.git",
+    "description": "Extension description",
+    "tags": [
+        "script",
+        "localization",
+        "tab"
+    ],
+    "added": "2023-07-13"
+}
