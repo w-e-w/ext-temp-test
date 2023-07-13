@@ -2013,20 +2013,20 @@
             "added": "2023-07-10"
         },
         {
-            "name": "add 1",
-            "url": "https://add1.com/<OWNER>/<REPO>.git",
-            "description": "Extension description",
-            "tags": [
-                "script"
-            ],
-            "added": "2023-07-13"
-        },
-        {
             "name": "gif2gif",
             "url": "https://github.com/LonicaMewinsky/gif2gif.git",
             "description": "A script for img2img that extract a gif frame by frame for img2img generation and recombine them back into an animated gif",
             "tags": [
                 "animation"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "add 1",
+            "url": "https://add1.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script"
             ],
             "added": "2023-07-13"
         }
