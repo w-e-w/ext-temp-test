@@ -1,12 +1,15 @@
-from json import load, loads, dump
-from re import compile
+import re
+import json
+import datetime
 from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor, wait
 from urllib.request import Request, urlopen
+from pathlib import Path
+from collections import Counter
 import validate_json
-import build_index
 
-github_repo_pattern = compile(r'https://github\.com/([^/ ]+/[^/ ]+?)(?:(?:\.git$)|$)')
+github_repo_pattern = re.compile(r'https://github\.com/([^/ ]+/[^/ ]+?)(?:(?:\.git$)|$)')
+git_url_pattern = re.compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
 
 def get_github_api(url: str):
     try:
@@ -14,7 +17,7 @@ def get_github_api(url: str):
         with urlopen(req) as response:
             data = response.read().decode()
             if response.getcode() == 200:
-                return True, loads(data)
+                return True, json.loads(data)
             else:
                 print(f'ERROR {url} Code : {response.getcode()} : {data}')
                 return False, None
@@ -69,9 +72,10 @@ if __name__ == "__main__":
 
     headers = {'authorization': f'Bearer {args.github_token}'} if args.github_token else {}
     get_github_api_call_failed = False
+    index_path = 'master/index.json'
 
-    with open('index.json', 'r') as f:
-        extension_index = load(f)
+    with open(index_path, 'r') as f:
+        extension_index = json.load(f)
     
     github_api_core_rait_limit = get_github_api_limit()
 
@@ -87,11 +91,9 @@ if __name__ == "__main__":
         threads = [executor.submit(get_github_metadata, extension) for extension in extension_index['extensions']]
         wait(threads)
 
-    with open('index.json', 'w') as f:
-        dump(extension_index, f, indent=4)
+    with open(index_path, 'w') as f:
+        json.dump(extension_index, f, indent=4)
     
     get_github_api_limit()
     
-    if build_index.run_command(["git", "status", "--short"]).stdout:
-        validate_json.validate()
-        build_index.run_command(["git", "commit", "--amend", "--no-edit", "--all"])
+    validate_json.validate_index(index_path)
