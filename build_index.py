@@ -31,7 +31,7 @@ def read_extension(file: Path):
 
 def read_extension_dir():
     extensions = {}
-    for f in Path('extensions/extensions').iterdir():
+    for f in extensions_dir.iterdir():
         if f.is_file() and f.suffix.lower() == '.json':        
             extension = read_extension(f)
             extensions[extension['url']] = extension
@@ -84,6 +84,7 @@ if __name__ == "__main__":
     
     build_index_path = Path(args.build_branch).joinpath('index.json')
     deploy_index_path = Path(args.deploy_branch).joinpath('index.json')
+    extensions_dir = Path(args.build_branch).joinpath('extensions')
 
     # read tags
     with open(Path(args.build_branch).joinpath('tags.json'), 'r') as f:
