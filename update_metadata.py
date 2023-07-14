@@ -1,6 +1,5 @@
 import re
 import json
-import datetime
 from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor, wait
 from urllib.request import Request, urlopen
