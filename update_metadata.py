@@ -1,10 +1,10 @@
-import re
-import json
-from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor, wait
 from urllib.request import Request, urlopen
+from argparse import ArgumentParser
 from pathlib import Path
-from collections import Counter
+import json
+import re
+
 import validate_json
 
 github_repo_pattern = re.compile(r'https://github\.com/([^/ ]+/[^/ ]+?)(?:(?:\.git$)|$)')
@@ -68,11 +68,12 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--max-thread", "-m", type=int, default=1, required=False)
     parser.add_argument("--github-token", "-t", type=str, default=None, required=False)
+    parser.add_argument("--deploy-branch", "-d", type=str, default='', required=False)
     args = parser.parse_args()
 
     headers = {'authorization': f'Bearer {args.github_token}'} if args.github_token else {}
     get_github_api_call_failed = False
-    index_path = 'master/index.json'
+    index_path = Path(args.deploy_branch).joinpath('index.json')
 
     with open(index_path, 'r') as f:
         extension_index = json.load(f)

@@ -1,15 +1,13 @@
-import re
-import json
-import datetime
-from argparse import ArgumentParser
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
+import datetime
+import json
+import re
 
-
-script_dir = Path(__file__).parent
 git_url_pattern = re.compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
 
-def validate_index(index_path: str):
+
+def validate_index(index_path: Path):
     with open(index_path) as inf:
         d = json.load(inf)
         assert "tags" in d
@@ -57,7 +55,7 @@ def validate_entry(file: Path):
     return git_url.group(1)
 
 
-def validate_extension_entrys(ext_dir: str):
+def validate_extension_entrys(ext_dir: Path):
     urls = []
     for f in Path(ext_dir).iterdir():
         if f.is_file() and f.suffix.lower() == '.json':
@@ -68,17 +66,9 @@ def validate_extension_entrys(ext_dir: str):
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument("--index", "-i", type=str, default='index.json', required=False)
-    parser.add_argument("--extensions-dir", "-e", type=str, default='extensions', required=False)
-    parser.add_argument("--tags", "-t", type=str, default='tags.json', required=False)
-    args = parser.parse_args()
-
-    with open(script_dir.joinpath('tags.json'), 'r') as f:
+    with open(Path('tags.json'), 'r') as f:
         tags_keys = json.load(f).keys()
 
-    if args.extensions_dir:
-        validate_extension_entrys(args.extensions_dir)
+    validate_extension_entrys(Path('extensions'))
 
-    if args.index:
-        validate_index(args.index)
+    validate_index(Path('index.json'))

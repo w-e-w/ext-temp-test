@@ -1,6 +1,8 @@
+from argparse import ArgumentParser
 from pathlib import Path
-import json
 import datetime
+import json
+
 import validate_json
 
 def read_extension(file: Path):
@@ -38,8 +40,7 @@ def read_extension_dir():
 
 def update_index(exts: dict, tags: dict):
     # update existing remove removed and add new extensions
-    index_path = Path('extensions/index.json')
-    with open(index_path, 'r') as f:
+    with open(build_index_path, 'r') as f:
         existing_extensions = {extension['url']: extension for extension in json.load(f)['extensions']}
 
     for extensions_url, extension in exts.items():
@@ -50,15 +51,14 @@ def update_index(exts: dict, tags: dict):
     extensions_list = [extension for extensions_url, extension in existing_extensions.items() if extensions_url in extensions]
     extension_index = {'tags': tags, 'extensions': extensions_list}
 
-    with open(index_path, 'w') as f:
+    with open(build_index_path, 'w') as f:
         json.dump(extension_index, f, indent=4)
     return extension_index
 
 
 def update_master_index(index: dict):
     # add keys from master/index that are not in extensions/tags to extensions/tags as new master/index
-    master_index_path = Path('master/index.json')
-    with open(master_index_path, 'r') as f:
+    with open(deploy_index_path, 'r') as f:
         master_exts = {extension['url']: extension for extension in json.load(f)['extensions']}
 
     index_ext = {extension['url']: extension for extension in index['extensions']}
@@ -71,14 +71,22 @@ def update_master_index(index: dict):
                     index_ext[master_ext_url][master_exts_key] = master_ext[master_exts_key]
 
     new_master_index = {'tags': index['tags'], 'extensions': list(index_ext.values())}
-    with open(master_index_path, 'w') as f:
+    with open(deploy_index_path, 'w') as f:
         json.dump(new_master_index, f, indent=4)
     return new_master_index
 
 
 if __name__ == "__main__":
-    # read tads
-    with open(Path('extensions/tags.json'), 'r') as f:
+    parser = ArgumentParser()
+    parser.add_argument("--build-branch", "-b", type=str, default='', required=False)
+    parser.add_argument("--deploy-branch", "-d", type=str, default='', required=False)
+    args = parser.parse_args()
+    
+    build_index_path = Path(args.build_branch).joinpath('index.json')
+    deploy_index_path = Path(args.deploy_branch).joinpath('index.json')
+
+    # read tags
+    with open(Path(args.build_branch).joinpath('tags.json'), 'r') as f:
         tags = json.load(f)
 
     # read entries
@@ -87,10 +95,10 @@ if __name__ == "__main__":
     # update indexs
     extension_index_ext = update_index(extensions, tags)
     extension_index_master = update_master_index(extension_index_ext)
-
+    
     # validate
-    validate_json.validate_index('extensions/index.json')
-    validate_json.validate_index('master/index.json')
+    validate_json.validate_index(build_index_path)
+    validate_json.validate_index(deploy_index_path)
 
     assert len(extension_index_ext["extensions"]) == len(extension_index_master["extensions"]), f'entry count mismatch: {len(extension_index_ext["extensions"])} {len(extension_index_master["extensions"])}'
     print(f'{len(tags)} tags, {len(extension_index_ext["extensions"])} extensions')    

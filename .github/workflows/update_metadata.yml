@@ -11,7 +11,8 @@ permissions:
 jobs:
     update-metadata:
         runs-on: ubuntu-latest
-
+        if: github.event.repository.fork == false
+        
         steps:
         - name: Checkout extensions
           uses: actions/checkout@v3
@@ -33,7 +34,7 @@ jobs:
             python-version: '3.11'
 
         - name: Update extension metadata
-          run: python -B extensions/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }}
+          run: python -B extensions/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
 
         - name: Get last commit message - extensions
           id: last-commit-message

@@ -39,7 +39,7 @@ jobs:
             python-version: '3.11'
 
         - name: Build extension index
-          run: python -B extensions/build_index.py
+          run: python -B extensions/build_index.py --build-branch extensions --deploy-branch master
 
         - name: Get last commit message - extensions
           id: last-commit-message
