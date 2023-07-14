@@ -11,6 +11,7 @@ import validate_json
 github_repo_pattern = re.compile(r'https://github\.com/([^/ ]+/[^/ ]+?)(?:(?:\.git$)|$)')
 git_url_pattern = re.compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
 
+
 def get_github_api(url: str):
     try:
         req = Request(url, headers=headers)
