@@ -24,4 +24,3 @@ jobs:
         run: |
           echo -e "::warning::You are probably doing something wrong\n::warning::Extension entries goes into \"extensions\" directory and must be in json format\n::warning::Don't modify or Add other files unless there's a special reason"
           exit 1
-          
