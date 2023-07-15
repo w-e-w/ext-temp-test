@@ -13,7 +13,7 @@ name: Warning marge into master
 jobs:
   marge-into-master:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == true
+    if: github.event.repository.fork == false
     steps:
       - name: Warning marge into master
         run: |
