@@ -1894,6 +1894,18 @@
                 "script"
             ],
             "added": "2023-07-15"
+        },
+        {
+            "name": "test Name",
+            "url": "https://ssss.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown"
+            ],
+            "added": "2023-07-15"
         }
     ]
 }
