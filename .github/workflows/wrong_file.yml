@@ -23,5 +23,7 @@ jobs:
     steps:
       - name: Warning wrong file
         run: |
-          echo "::warning::Missing semicolon"
+          echo "::warning::You are probably doing something wrong"
+          echo "::warning::Extension entries goes into "extensions" directory and must be in json format"
+          echo "::warning::Don't modify or Add other files unless there's a special reason"
           exit 1
