@@ -14,7 +14,7 @@ permissions:
     contents: write
 
 jobs:
-    build-extension-index:
+    build-index:
         runs-on: ubuntu-latest
         if: github.event.repository.fork == false
 
@@ -38,10 +38,10 @@ jobs:
           with:
             python-version: '3.11'
 
-        - name: Build extension index
+        - name: Build index
           run: python -B extensions/build_index.py --build-branch extensions --deploy-branch master
 
-        - name: Get last commit message - extensions
+        - name: Get last commit message
           id: last-commit-message
           run: echo "msg=$(git -C extensions log -1 --pretty=%s)" >> $GITHUB_OUTPUT
 
