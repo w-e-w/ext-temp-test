@@ -21,5 +21,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Warning - Extension entries goes into extensions directory
-        run: exit 1
+      - name: Warning
+        run: |
+          echo You are probably adding me wrong file
+          echo Extension entries goes into extensions directory and must be in json format
+          echo Don't edit other files unless there's a special reason
+          exit 1

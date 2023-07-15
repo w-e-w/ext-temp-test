@@ -3,7 +3,7 @@ from pathlib import Path
 import datetime
 import json
 
-import validate_json
+import validate_entries
 
 def read_extension(file: Path):
     with open(file, 'r') as f:
@@ -98,8 +98,8 @@ if __name__ == "__main__":
     extension_index_master = update_master_index(extension_index_ext)
     
     # validate
-    validate_json.validate_index(build_index_path)
-    validate_json.validate_index(deploy_index_path)
+    validate_entries.validate_index(build_index_path)
+    validate_entries.validate_index(deploy_index_path)
 
     assert len(extension_index_ext["extensions"]) == len(extension_index_master["extensions"]), f'entry count mismatch: {len(extension_index_ext["extensions"])} {len(extension_index_master["extensions"])}'
     print(f'{len(tags)} tags, {len(extension_index_ext["extensions"])} extensions')    

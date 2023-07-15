@@ -1,4 +1,4 @@
-name: Validate json
+name: Validate entries
 
 "on":
   workflow_dispatch:
@@ -21,7 +21,7 @@ name: Validate json
       - 'index.json'
 
 jobs:
-  validate:
+  validate-entries:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,5 +33,5 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate
-        run: python -B validate_json.py
+      - name: Validate entries
+        run: python -B validate.py

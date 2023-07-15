@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import re
 
-import validate_json
+import validate_entries
 
 github_repo_pattern = re.compile(r'https://github\.com/([^/ ]+/[^/ ]+?)(?:(?:\.git$)|$)')
 git_url_pattern = re.compile(r'(https://[^ ]+?)(?:(?:\.git)$|$)')
@@ -97,4 +97,4 @@ if __name__ == "__main__":
     
     get_github_api_limit()
     
-    validate_json.validate_index(index_path)
+    validate_entries.validate_index(index_path)
