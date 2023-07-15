@@ -1,0 +1,19 @@
+name: Warning marge into master
+
+"on":
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - protected-branch
+
+jobs:
+  marge-into-master:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Warning marge into master
+        run: |
+          echo -e "::warning::This pull request directly merges into master\n::warning::development happens on dev branch"
+          exit 1
