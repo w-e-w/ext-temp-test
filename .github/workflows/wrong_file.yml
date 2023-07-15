@@ -1,4 +1,4 @@
-name: Warning
+name: Warning wrong file
 
 "on":
   push:
@@ -16,13 +16,13 @@ name: Warning
       - 'extensions/**.json'
 
 jobs:
-  wrong-file-warning:
+  wrong-file:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Warning
+      - name: Warning wrong file
         run: |
-          echo You're probably doing something wrong
+          echo You\'re probably doing something wrong
           echo Extension entries goes into \"extensions\" directory and must be in json format
-          echo Don't modify or Add other files unless there's a special reason
+          echo echo Don\'t modify or Add other files unless there\'s a special reason
           exit 1
