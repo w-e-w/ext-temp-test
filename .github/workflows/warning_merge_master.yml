@@ -1,4 +1,4 @@
-name: Warning marge into master
+name: Branch
 
 "on":
   pull_request:
@@ -7,10 +7,10 @@ name: Warning marge into master
       - synchronize
       - reopened
     branches:
-      - protected-branch
+      - master
 
 jobs:
-  marge-into-master:
+  pull requests can't be made into master branch:
     runs-on: ubuntu-latest
     steps:
       - name: Warning marge into master
