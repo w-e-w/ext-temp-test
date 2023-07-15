@@ -41,7 +41,7 @@ def get_github_metadata(extension: dict):
     github_repo = github_repo_pattern.match(extension['url'])
     if github_repo:
         if get_github_api_call_failed:
-            print(f"::warning:: skip {extension['url']}")
+            print(f"::warning::skip: {extension['url']}")
             return
         print(extension['url'])
         success, responce_json = get_github_api(f'https://api.github.com/repos/{github_repo.group(1)}')
@@ -72,12 +72,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     headers = {'authorization': f'Bearer {args.github_token}'} if args.github_token else {}
-    get_github_api_call_failed = False
     index_path = Path(args.deploy_branch).joinpath('index.json')
+    get_github_api_call_failed = False
 
     with open(index_path, 'r') as f:
         extension_index = json.load(f)
-    
+
     github_api_core_rait_limit = get_github_api_limit()
 
     if github_api_core_rait_limit.get('remaining') == 0:
@@ -85,8 +85,6 @@ if __name__ == "__main__":
         exit()
     elif len(extension_index['extensions'] * 2) >= github_api_core_rait_limit.get('remaining'):
         print('::warning::Rate Limit')
-
-    get_github_api_call_failed = False
 
     with ThreadPoolExecutor(max_workers=args.max_thread) as executor:
         threads = [executor.submit(get_github_metadata, extension) for extension in extension_index['extensions']]
