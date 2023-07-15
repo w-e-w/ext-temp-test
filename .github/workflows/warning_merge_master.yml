@@ -15,5 +15,5 @@ jobs:
     steps:
       - name: Warning marge into master
         run: |
-          echo -e "::warning::This pull request directly merges into master\n::warning::development happens on dev branch"
+          echo -e "::warning::This pull request directly merge into \"master\", development should be on \"dev\" branch."
           exit 1
