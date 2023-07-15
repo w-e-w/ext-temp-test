@@ -7,8 +7,7 @@ name: Branch
       - synchronize
       - reopened
     branches:
-      - master
-
+      - test-protection-branch
 jobs:
   pull requests can't be made into master branch:
     runs-on: ubuntu-latest
