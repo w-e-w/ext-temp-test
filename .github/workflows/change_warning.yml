@@ -1,0 +1,25 @@
+name: Warning - Extension entries goes into extensions directory
+
+"on":
+  workflow_dispatch:
+  push:
+    branches-ignore:
+      - master
+      - extensions
+    paths-ignore:
+      - 'extensions/**.json'
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths-ignore:
+      - 'extensions/**.json'
+
+jobs:
+  wrong-file-warning:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Warning
+        run: exit 1
