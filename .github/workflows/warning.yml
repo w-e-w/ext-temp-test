@@ -14,7 +14,7 @@ name: Warning
       - synchronize
       - reopened
     branches:
-      - master
+      - extensions
 
 jobs:
   wrong-file-warning:
@@ -22,9 +22,8 @@ jobs:
 
     steps:
       - name: Warning
-        run: |
+        run: 
           echo You're probably doing something wrong
           echo Extension entries goes into \"extensions\" directory and must be in json format
-          echo Pull request gose to \"extensions\" branch not \"master\" branch
           echo Don't modify or Add other files unless there's a special reason
           exit 1
