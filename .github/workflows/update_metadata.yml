@@ -23,7 +23,6 @@ jobs:
         - name: Checkout master
           uses: actions/checkout@v3
           with:
-            fetch-depth: 2
             ref: 'master'
             path: master
 
@@ -34,13 +33,14 @@ jobs:
 
         - name: Update extension metadata
           run: python -B extensions/.github/scripts/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
+        
+        - name: Get current date
+          id: current-date
+          run: date -u +"%Y-%m-%d" >> $GITHUB_OUTPUT
 
         - name: Commit - master
           uses: stefanzweifel/git-auto-commit-action@v4
           with:
-            commit_message: Update metadata
-            commit_options: '--amend --no-edit'
+            commit_message: Update metadata ${{ steps.current-date.outputs.msg }}
             file_pattern: '*.json'
-            push_options: '--force'
-            skip_fetch: true
             repository: master

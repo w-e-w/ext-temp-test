@@ -388,7 +388,8 @@
             "description": "Extension for an improved UI/UX. Find your cozy spot on Auto1111's webui!.",
             "added": "2023-05-02",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ]
         },
         {
@@ -1550,14 +1551,13 @@
         {
             "name": "Miaoshouai Assistant",
             "url": "https://github.com/miaoshouai/miaoshouai-assistant.git",
-            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, managing and downloading your models, prompts from a single tab.",
+            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, freeup vram, managing and downloading your models from civitai.com and liandange.com, generate prompts from chatgpt all through a single tab.",
             "added": "2023-05-18",
             "tags": [
                 "tab",
                 "models",
                 "UI related",
-                "online",
-                "ads"
+                "online"
             ]
         },
         {
@@ -1748,7 +1748,8 @@
             "description": "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.",
             "added": "2023-06-28",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ]
         },
         {
@@ -1757,7 +1758,8 @@
             "description": "Custom Theme.",
             "added": "2023-02-28",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ]
         },
         {
@@ -1896,45 +1898,21 @@
             "added": "2023-07-15"
         },
         {
-            "name": "asdsdsghc",
-            "url": "https://asdsdsghc.com/<OWNER>/<REPO>.git",
-            "description": "Extension description",
+            "name": "Shutdown button",
+            "url": "https://github.com/EnsignMK/sd_shutdown_button.git",
+            "description": "Adds a button in quick settings for killing webui",
             "tags": [
                 "script",
-                "localization",
-                "tab",
-                "dropdown",
-                "ads",
-                "training",
-                "models",
-                "UI related",
-                "prompting",
-                "editing",
-                "manipulations",
-                "online",
-                "animation",
-                "query",
-                "science",
-                "extras"
+                "UI related"
             ],
             "added": "2023-07-15"
         },
         {
-            "name": "!Afasdter Detailer",
-            "url": "https://asd.com/Bing-su/adetailer.git",
-            "description": "Automatic detection, masking and inpainting tool for details",
-            "added": "2023-05-12",
+            "name": "Latent Upscale",
+            "url": "https://github.com/feynlee/latent-upscale.git",
+            "description": "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.",
             "tags": [
-                "manipulations"
-            ]
-        },
-        {
-            "name": "no amend test",
-            "url": "https://test.com/Elldreth/loopback_scaler.git",
-            "description": "Iteratively improves image quality and detail via user-controlled, gradual resolution increments.",
-            "tags": [
-                "script",
-                "manipulations"
+                "script"
             ],
             "added": "2023-07-15"
         }
