@@ -1,7 +1,6 @@
 name: Warning
 
 "on":
-  workflow_dispatch:
   push:
     branches-ignore:
       - master
