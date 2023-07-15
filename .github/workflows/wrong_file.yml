@@ -23,4 +23,5 @@ jobs:
     steps:
       - name: Warning wrong file
         run:
-          echo "::warning file={name},line={line},endLine={endLine},title={title}::{message}"
+          echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
+          exit 1
