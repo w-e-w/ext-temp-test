@@ -1,6 +1,7 @@
 name: Warning wrong file
 
 "on":
+  workflow_dispatch:
   push:
     branches-ignore:
       - master
