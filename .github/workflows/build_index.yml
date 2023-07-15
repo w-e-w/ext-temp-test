@@ -29,7 +29,7 @@ jobs:
         - name: Checkout master
           uses: actions/checkout@v3
           with:
-            fetch-depth: 2
+            fetch-depth: 1
             ref: 'master'
             path: master
 
@@ -45,6 +45,13 @@ jobs:
           id: last-commit-message
           run: echo "msg=$(git -C extensions log -1 --pretty=%s)" >> $GITHUB_OUTPUT
 
+        - name: Commit - master
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: ${{ steps.last-commit-message.outputs.msg }}
+            file_pattern: '*.json'
+            repository: master
+
         - name: Commit - extensions
           uses: stefanzweifel/git-auto-commit-action@v4
           with:
@@ -54,13 +61,3 @@ jobs:
             push_options: '--force'
             skip_fetch: true
             repository: extensions
-
-        - name: Commit - master
-          uses: stefanzweifel/git-auto-commit-action@v4
-          with:
-            commit_message: ${{ steps.last-commit-message.outputs.msg }}
-            commit_options: '--amend --no-edit'
-            file_pattern: '*.json'
-            push_options: '--force'
-            skip_fetch: true
-            repository: master
