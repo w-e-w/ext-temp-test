@@ -468,7 +468,7 @@
             ],
             "full_name": "AlUlkesh/stable-diffusion-webui-images-browser",
             "github_description": "an images browse for stable-diffusion-webui",
-            "stars": 386,
+            "stars": 387,
             "default_branch": "main",
             "created_at": "2023-01-14T16:20:37Z",
             "default_branch_commit_sha": "9229ed5e7e15608ec035d89cc5b2d19c3e629142",
@@ -568,7 +568,7 @@
             ],
             "full_name": "Zyin055/Config-Presets",
             "github_description": "Extension for Automatic1111",
-            "stars": 145,
+            "stars": 146,
             "default_branch": "main",
             "created_at": "2022-12-13T07:05:08Z",
             "default_branch_commit_sha": "30117f09a72b11c64054cb92f01bcef0db7fa13d",
@@ -647,7 +647,8 @@
             "description": "Extension for an improved UI/UX. Find your cozy spot on Auto1111's webui!.",
             "added": "2023-05-02",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ],
             "full_name": "Nevysha/Cozy-Nest",
             "github_description": "A collection of tweak to improve Auto1111 UI//UX",
@@ -813,7 +814,7 @@
             ],
             "full_name": "klimaleksus/stable-diffusion-webui-conditioning-highres-fix",
             "github_description": "Extension for AUTOMATIC1111/stable-diffusion-webui for simplify usage of \"Inpainting conditioning mask strength\", greatly improving \"Highres. fix\" feature for sd-v1-5-inpainting model.",
-            "stars": 30,
+            "stars": 31,
             "default_branch": "master",
             "created_at": "2022-11-08T17:56:49Z",
             "default_branch_commit_sha": "e01bfcf48fd1f689e135e5889d9b1d01844511c4",
@@ -829,7 +830,7 @@
             ],
             "full_name": "mix1009/model-keyword",
             "github_description": "Automatic1111 WEBUI extension to autofill keyword for custom stable diffusion models and LORA models.",
-            "stars": 135,
+            "stars": 136,
             "default_branch": "main",
             "created_at": "2022-12-01T03:07:53Z",
             "default_branch_commit_sha": "bb74c0d9ef32f65bf65697a9a546311fb3e7ffdb",
@@ -863,7 +864,7 @@
             ],
             "full_name": "AUTOMATIC1111/stable-diffusion-webui-promptgen",
             "github_description": "stable-diffusion-webui-promptgen",
-            "stars": 296,
+            "stars": 297,
             "default_branch": "master",
             "created_at": "2023-01-18T09:50:34Z",
             "default_branch_commit_sha": "84e58b5d655c6e6b140af2c3fd2f49a398e666f2",
@@ -996,7 +997,7 @@
             ],
             "full_name": "yownas/shift-attention",
             "github_description": "In stable diffusion, generate a sequence of images shifting attention in the prompt.",
-            "stars": 138,
+            "stars": 139,
             "default_branch": "main",
             "created_at": "2022-09-30T19:45:09Z",
             "default_branch_commit_sha": "0129f6b99109f6f7c9e4e2bee0d1dc5f96e62506",
@@ -1176,7 +1177,7 @@
             ],
             "full_name": "AUTOMATIC1111/stable-diffusion-webui-pixelization",
             "github_description": "stable-diffusion-webui-pixelization",
-            "stars": 402,
+            "stars": 403,
             "default_branch": "master",
             "created_at": "2023-01-23T10:57:20Z",
             "default_branch_commit_sha": "e37251c5951c9e17514b859422e71c9579b7c9d1",
@@ -1353,7 +1354,7 @@
             ],
             "full_name": "Mikubill/sd-webui-controlnet",
             "github_description": "WebUI extension for ControlNet",
-            "stars": 11244,
+            "stars": 11246,
             "default_branch": "main",
             "created_at": "2023-02-12T16:26:27Z",
             "default_branch_commit_sha": "07bed6ccf8a468a45b2833cfdadc749927cbd575",
@@ -1793,7 +1794,7 @@
             ],
             "full_name": "hnmr293/posex",
             "github_description": "Posex - Estimated Image Generator for Pose2Image",
-            "stars": 487,
+            "stars": 488,
             "default_branch": "master",
             "created_at": "2023-02-15T17:49:04Z",
             "default_branch_commit_sha": "292f92d5068046f988fe002eb0a43b8841ad449e",
@@ -1874,7 +1875,7 @@
             ],
             "full_name": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
             "github_description": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0",
-            "stars": 3130,
+            "stars": 3131,
             "default_branch": "main",
             "created_at": "2023-02-27T14:23:49Z",
             "default_branch_commit_sha": "de4888103c03d88c0d32af6d453373b47291687a",
@@ -1955,7 +1956,7 @@
             ],
             "full_name": "AUTOMATIC1111/stable-diffusion-webui-rembg",
             "github_description": "Removes backgrounds from pictures. Extension for webui.",
-            "stars": 557,
+            "stars": 558,
             "default_branch": "master",
             "created_at": "2023-03-12T15:32:44Z",
             "default_branch_commit_sha": "3d9eedbbf0d585207f97d5b21e42f32c0042df70",
@@ -2635,7 +2636,7 @@
             ],
             "full_name": "Bing-su/adetailer",
             "github_description": "Auto detecting, masking and inpainting with detection model.",
-            "stars": 1496,
+            "stars": 1497,
             "default_branch": "main",
             "created_at": "2023-04-26T07:54:51Z",
             "default_branch_commit_sha": "ee75bb8e16e9ac4de4457eff258ea34cfbfe2f23",
@@ -2677,14 +2678,13 @@
         {
             "name": "Miaoshouai Assistant",
             "url": "https://github.com/miaoshouai/miaoshouai-assistant.git",
-            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, managing and downloading your models, prompts from a single tab.",
+            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, freeup vram, managing and downloading your models from civitai.com and liandange.com, generate prompts from chatgpt all through a single tab.",
             "added": "2023-05-18",
             "tags": [
                 "tab",
                 "models",
                 "UI related",
-                "online",
-                "ads"
+                "online"
             ],
             "full_name": "miaoshouai/miaoshouai-assistant",
             "github_description": "MiaoshouAI Assistant for Automatic1111 Webui",
@@ -2739,7 +2739,7 @@
             ],
             "full_name": "Kryptortio/SDAtom-WebUi-client-queue-ext",
             "github_description": "Queue extension for AUTOMATIC1111/stable-diffusion-webui",
-            "stars": 37,
+            "stars": 38,
             "default_branch": "master",
             "created_at": "2023-02-25T11:53:03Z",
             "default_branch_commit_sha": "9cf161b22edb81f40b86fd1ee9cf929f02e032c2",
@@ -3001,11 +3001,12 @@
             "description": "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.",
             "added": "2023-06-28",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ],
             "full_name": "canisminor1990/sd-webui-lobe-theme",
             "github_description": "\ud83e\udd2f Lobe theme - the modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme",
-            "stars": 947,
+            "stars": 948,
             "default_branch": "main",
             "created_at": "2023-02-25T06:41:18Z",
             "default_branch_commit_sha": "d4c4a48e8025d32b202716d4ab8d806580752256",
@@ -3017,7 +3018,8 @@
             "description": "Custom Theme.",
             "added": "2023-02-28",
             "tags": [
-                "UI related"
+                "UI related",
+                "online"
             ],
             "full_name": "canisminor1990/sd-webui-kitchen-theme-legacy",
             "github_description": "[Legacy] \ud83e\uddff Kitchen theme for stable diffusion webui\uff0cKitchen Theme has moved into maintenance mode!  Recommend using Lobe Theme for more custom features",
@@ -3204,7 +3206,7 @@
             "added": "2023-07-11",
             "full_name": "limithit/Mask2Background",
             "github_description": "Mask2Background for Stable Diffusion Web UI",
-            "stars": 6,
+            "stars": 7,
             "default_branch": "main",
             "created_at": "2023-07-11T06:56:21Z",
             "default_branch_commit_sha": "47a574c6abdf9b7872f9bc4be37614f1efa3079a",
@@ -3222,7 +3224,7 @@
             "added": "2023-07-14",
             "full_name": "ModelSurge/sd-webui-comfyui",
             "github_description": "A1111 extension to embed ComfyUI in its own tab",
-            "stars": 127,
+            "stars": 128,
             "default_branch": "main",
             "created_at": "2023-03-19T10:13:42Z",
             "default_branch_commit_sha": "dd18189c180fe9f917cb32b0ed7e0e08be821b89",
@@ -3254,44 +3256,30 @@
             "added": "2023-07-15",
             "full_name": "viyiviyi/stable-diffusion-webui-zoomimage",
             "github_description": "\u7ed9\u67e5\u770b\u56fe\u7247\u7684\u7a97\u53e3\u589e\u52a0\u4e86\u9f20\u6807\u6216\u624b\u52bf\u7f29\u653e\u548c\u62d6\u52a8\u67e5\u770b\u7684\u529f\u80fd",
-            "stars": 3,
+            "stars": 4,
             "default_branch": "main",
             "created_at": "2023-07-14T23:30:37Z",
             "default_branch_commit_sha": "2282c8e2f62bded83ee3d3ce30b3ab65bebb1641",
             "commit_time": "2023-07-15T12:55:06Z"
         },
         {
-            "name": "asdsdsghc",
-            "url": "https://asdsdsghc.com/<OWNER>/<REPO>.git",
-            "description": "Extension description",
+            "name": "Shutdown button",
+            "url": "https://github.com/EnsignMK/sd_shutdown_button.git",
+            "description": "Adds a button in quick settings for killing webui",
             "tags": [
                 "script",
-                "localization",
-                "tab",
-                "dropdown",
-                "ads",
-                "training",
-                "models",
-                "UI related",
-                "prompting",
-                "editing",
-                "manipulations",
-                "online",
-                "animation",
-                "query",
-                "science",
-                "extras"
+                "UI related"
             ],
             "added": "2023-07-15"
         },
         {
-            "name": "!Afasdter Detailer",
-            "url": "https://asd.com/Bing-su/adetailer.git",
-            "description": "Automatic detection, masking and inpainting tool for details",
-            "added": "2023-05-12",
+            "name": "Latent Upscale",
+            "url": "https://github.com/feynlee/latent-upscale.git",
+            "description": "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.",
             "tags": [
-                "manipulations"
-            ]
+                "script"
+            ],
+            "added": "2023-07-15"
         }
     ]
 }
