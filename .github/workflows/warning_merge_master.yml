@@ -1,4 +1,4 @@
-name: Branch
+name: Pull requests can't be merge into master 
 
 "on":
   pull_request:
@@ -9,7 +9,7 @@ name: Branch
     branches:
       - test-protection-branch
 jobs:
-  pull requests can't be made into master branch:
+  redo:
     runs-on: ubuntu-latest
     steps:
       - name: Warning marge into master
