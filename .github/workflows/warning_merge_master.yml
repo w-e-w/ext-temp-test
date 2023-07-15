@@ -1,4 +1,4 @@
-name: Pull requests can't be merge into master 
+name: Pull requests can't target master branch
 
 "on":
   pull_request:
@@ -8,8 +8,9 @@ name: Pull requests can't be merge into master
       - reopened
     branches:
       - test-protection-branch-2
+
 jobs:
-  redo:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Warning marge into master
