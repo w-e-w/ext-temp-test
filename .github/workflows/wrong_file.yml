@@ -21,8 +21,5 @@ jobs:
 
     steps:
       - name: Warning wrong file
-        run: |
-          echo You\'re probably doing something wrong
-          echo Extension entries goes into \"extensions\" directory and must be in json format
-          echo echo Don\'t modify or Add other files unless there\'s a special reason
-          exit 1
+        run:
+          echo "::warning file={name},line={line},endLine={endLine},title={title}::{message}"
