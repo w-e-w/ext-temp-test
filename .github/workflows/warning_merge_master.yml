@@ -7,7 +7,7 @@ name: Pull requests can't be merge into master
       - synchronize
       - reopened
     branches:
-      - test-protection-branch
+      - test-protection-branch-2
 jobs:
   redo:
     runs-on: ubuntu-latest
