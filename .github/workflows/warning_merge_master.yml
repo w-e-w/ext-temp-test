@@ -7,7 +7,7 @@ name: Pull requests can't target master branch
       - synchronize
       - reopened
     branches:
-      - test-protection-branch-2
+      - test-protection-branch-3
 
 jobs:
   check:
