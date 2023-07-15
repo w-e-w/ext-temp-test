@@ -1,0 +1,30 @@
+name: Warning
+
+"on":
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths-ignore:
+      - 'extensions/**.json'
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - master
+
+jobs:
+  wrong-file-warning:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Warning
+        run: |
+          echo You're probably doing something wrong
+          echo Extension entries goes into \"extensions\" directory and must be in json format
+          echo Pull request gose to \"extensions\" branch not \"master\" branch
+          echo Don't modify or Add other files unless there's a special reason
+          exit 1
