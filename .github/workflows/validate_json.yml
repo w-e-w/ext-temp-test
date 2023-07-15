@@ -22,20 +22,16 @@ name: Validate json
 
 jobs:
   validate-json:
-    strategy:
-      matrix:
-        python-version: ["3.10"]
-        os: [ubuntu-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.4.0
+        uses: actions/checkout@v3
 
-      - name: Setup python  
-        uses: actions/setup-python@v4.5.0
+      - name: Setup python
+        uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: '3.11'
 
-      - name: Validate index
+      - name: Validate
         run: python -B validate_json.py
