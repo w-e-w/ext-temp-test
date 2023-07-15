@@ -1,0 +1,9 @@
+{
+    "name": "Extension Name",
+    "url": "https://ssasas.com/<OWNER>/<REPO>.git",
+    "description": "Extension description",
+    "tags": [
+        "script",
+        "extras"
+    ]
+}
