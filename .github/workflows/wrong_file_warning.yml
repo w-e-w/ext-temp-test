@@ -1,6 +1,12 @@
 name: Warning
 
 "on":
+  push:
+    branches-ignore:
+      - master
+      - extensions
+    paths-ignore:
+      - 'extensions/**.json'
   pull_request:
     types:
       - opened
@@ -8,13 +14,6 @@ name: Warning
       - reopened
     paths-ignore:
       - 'extensions/**.json'
-  pull_request_target:
-    types:
-      - opened
-      - synchronize
-      - reopened
-    branches:
-      - extensions
 
 jobs:
   wrong-file-warning:
@@ -22,7 +21,7 @@ jobs:
 
     steps:
       - name: Warning
-        run: 
+        run: |
           echo You're probably doing something wrong
           echo Extension entries goes into \"extensions\" directory and must be in json format
           echo Don't modify or Add other files unless there's a special reason
