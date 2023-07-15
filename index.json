@@ -1927,6 +1927,16 @@
             "tags": [
                 "manipulations"
             ]
+        },
+        {
+            "name": "no amend test",
+            "url": "https://test.com/Elldreth/loopback_scaler.git",
+            "description": "Iteratively improves image quality and detail via user-controlled, gradual resolution increments.",
+            "tags": [
+                "script",
+                "manipulations"
+            ],
+            "added": "2023-07-15"
         }
     ]
 }
