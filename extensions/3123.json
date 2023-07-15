@@ -1,0 +1,9 @@
+{
+    "name": "32234",
+    "url": "https://asd.com/toriato/stable-diffusion-webui-wd14-tagger.git",
+    "description": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
+    "tags": [
+        "tab",
+        "training"
+    ],
+}
