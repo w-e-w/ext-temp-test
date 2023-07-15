@@ -23,8 +23,9 @@ jobs:
     steps:
       - name: Warning wrong file
         run: |
-          print_error(
+          print_error() {
             echo -e "::warning::You are probably doing something wrong\nExtension entries goes into \"extensions\" directory and must be in json format\nDon't modify or Add other files unless there's a special reason"
             return 1
-          )
+          }
           print_error
+          
