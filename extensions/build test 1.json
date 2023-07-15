@@ -1,9 +1,0 @@
-{
-    "name": "build test 1",
-    "url": "https://test.com/<OWNER>/<REPO>.git",
-    "description": "Extension description",
-    "tags": [
-        "script"
-    ],
-    "added": "2023-07-12"
-}
