@@ -1894,6 +1894,232 @@
                 "script"
             ],
             "added": "2023-07-15"
+        },
+        {
+            "name": "aaaaaaa",
+            "url": "https://aaaaaa.com/huchenlei/sd-webui-openpose-editor.git",
+            "description": "Integrated openpose editor for ControlNet. Full hand/face support.",
+            "tags": [
+                "editing"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "nb1",
+            "url": "https://nb1.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "Extension Name",
+            "url": "https://gissadthub.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown",
+                "ads",
+                "installed",
+                "training",
+                "models",
+                "UI related",
+                "prompting",
+                "editing",
+                "manipulations",
+                "online",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-10"
+        },
+        {
+            "name": "ccccc",
+            "url": "https://cccc.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer.git",
+            "description": "Adds a tab that lets you preview how CLIP model would tokenize your text.",
+            "tags": [
+                "tab",
+                "prompting"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "test2",
+            "url": "https://test2.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown",
+                "ads",
+                "installed",
+                "training",
+                "models",
+                "UI related",
+                "prompting",
+                "editing",
+                "manipulations",
+                "online",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-10"
+        },
+        {
+            "name": "BBBBB",
+            "url": "https://BBBB.com/CiaraStrawberry/TemporalKit",
+            "description": "An all in one solution for adding Temporal Stability to a Stable Diffusion Render via an automatic1111 extension",
+            "tags": [
+                "extras",
+                "animation"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "123442r",
+            "url": "https://asdds.com/toriato/stable-diffusion-webui-wd14-tagger.git",
+            "description": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
+            "tags": [
+                "tab",
+                "training"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "build test 1",
+            "url": "https://test.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-12"
+        },
+        {
+            "name": "new work flow test",
+            "url": "https://asdasdsa.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-14"
+        },
+        {
+            "name": "1233",
+            "url": "https://asd.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown",
+                "ads",
+                "installed",
+                "training",
+                "models",
+                "UI related",
+                "prompting",
+                "editing",
+                "manipulations",
+                "online",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "b4",
+            "url": "https://b4444.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown",
+                "ads",
+                "installed",
+                "training",
+                "models",
+                "UI related",
+                "prompting",
+                "editing",
+                "manipulations",
+                "online",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "add 1",
+            "url": "https://add1.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "stable-diffusion-webui",
+            "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+            "description": "A browser interface based on Gradio library for Stable Diffusion.",
+            "tags": [
+                "extras",
+                "animation"
+            ],
+            "added": "1939-09-01"
+        },
+        {
+            "name": "12342134s",
+            "url": "https://sdadads.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git",
+            "description": "Load lycoris: non-conventional rank adapters; in separate networks gallery tab.",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-13"
+        },
+        {
+            "name": "build test 2",
+            "url": "https://buildtest.com/<OWNER>/<REPO>.git",
+            "description": "Extension description",
+            "tags": [
+                "script",
+                "localization",
+                "tab",
+                "dropdown",
+                "ads",
+                "installed",
+                "training",
+                "models",
+                "UI related",
+                "prompting",
+                "editing",
+                "manipulations",
+                "online",
+                "animation",
+                "query",
+                "science",
+                "extras"
+            ],
+            "added": "2023-07-13"
         }
     ]
 }

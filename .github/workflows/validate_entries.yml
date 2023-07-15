@@ -34,4 +34,4 @@ jobs:
           python-version: '3.11'
 
       - name: Validate entries
-        run: python -B validate.py
+        run: python -B .github/scripts/validate.py

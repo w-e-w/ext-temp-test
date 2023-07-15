@@ -34,7 +34,7 @@ jobs:
             python-version: '3.11'
 
         - name: Update extension metadata
-          run: python -B extensions/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
+          run: python -B extensions/.github/scripts/update_metadata.py --max-thread 20 --github-token ${{ secrets.GITHUB_TOKEN }} --deploy-branch master
 
         - name: Get last commit message
           id: last-commit-message
