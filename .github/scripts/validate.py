@@ -32,8 +32,11 @@ def validate_index(index_path: Path):
 
 def validate_entry(file: Path):
 
-    with open(file, 'r') as f:
-        extension = json.load(f)
+    try:
+        with open(file, 'r') as f:
+            extension = json.load(f)
+    except Exception as e:
+        exit(f"::error::{file} : {e}")
     for required_key in [
         "name",
         "url",
