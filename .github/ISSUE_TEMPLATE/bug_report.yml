@@ -13,6 +13,12 @@ body:
           required: true
         - label: I have tried on a clean installation of webui
           required: true
+        - label: The issue is caused by an extension but it is caused by a bug in webui
+          required: true
+        - label: The issue exist in the master version of webui
+          required: true
+        - label: The issue exist in the dev version of webui
+          required: true
 
   - type: markdown
     attributes:
