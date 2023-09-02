@@ -40,8 +40,9 @@ body:
       label: What happened?
       description: Tell us what happened in a very clear and simple way
       placeholder: |
-        I tried to generate images using XYZ grid and it did not work
-        Screenshot or screen recording of the issue if necessary
+        I tried to use txt2img with XYZ grid with Sampler DPM++ SDE,DPM++ 2M SDE
+        it should generate a grid of 2 images but I only got 1
+        > if necessary add screenshot or screen recording
     validations:
       required: true
   - type: textarea
