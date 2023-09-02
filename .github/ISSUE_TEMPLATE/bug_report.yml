@@ -16,9 +16,12 @@ body:
       label: I have to try to solve the issue myself
       description: Please do some basic debugging to see if extensions or configuration as the cause of the issue
       options:
-        - I have tried disabling all extensions
-        - I have tried on a clean installation of webui
-        - The issue is caused by an extension but it is caused by a bug in webui
+        - label: I have tried disabling all extensions
+          required: true
+        - label: I have tried on a clean installation of webui
+          required: true
+        - label: The issue is caused by an extension but it is caused by a bug in webui
+          required: true
   - type: markdown
     attributes:
       value: |
