@@ -55,8 +55,9 @@ body:
     attributes:
       label: What should have happened?
       description: Tell us what you think the normal behavior should be
+      placeholder: |
+        --- Example ---
+        It should generate a grid of 2 images
     validations:
       required: true
-    placeholder: |
-      --- Example ---
-      It should generate a grid of 2 images
+
