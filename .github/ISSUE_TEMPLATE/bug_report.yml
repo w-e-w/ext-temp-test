@@ -48,3 +48,5 @@ body:
         4. Press Generate
         5. you should see error message appears in console
         Screenshot or screen recording of the issue
+    validations:
+      required: true
