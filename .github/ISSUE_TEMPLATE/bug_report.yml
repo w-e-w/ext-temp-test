@@ -13,6 +13,16 @@ body:
         Don't put your your entire Error log in it
   - type: checkboxes
     attributes:
+      label: Checklist
+      description: |
+        Please perform basic debugging to see if extensions or configuration is the cause of the issue.
+        Basic debug procedure
+        　1. Disable all third-party extensions - check if extension is the cause
+        　2. Update extensions and webui - sometimes thing just need to be updated
+        　3. Backup and remove your config.json and ui-config.json - check if the issue is caused bed configuration
+        　4. delete venv with third-party extensions disable - sometimes extensions might cause wrong libraries to be installed
+        　5. try a fresh installation webui in a different directory - see if a clean installation solves the issue
+        Before making a issue report please check that the issue hasn't been reported recently
       options:
         - label: The issue exist after disabling all extensions
         - label: The issue exist on a clean installation of webui
