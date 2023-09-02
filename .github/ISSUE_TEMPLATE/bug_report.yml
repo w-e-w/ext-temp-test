@@ -5,9 +5,7 @@ labels: ["bug-report"]
 
 body:
   - type: checkboxes
-    description: |
-      Please do some basic debugging to see if extensions or configuration as the cause of the issue.
-      Check if the issue has been reported recently and if the issue is already fixed in newer commit/versions of webui.
+    description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
     attributes:
       label: Checklist
       options:
