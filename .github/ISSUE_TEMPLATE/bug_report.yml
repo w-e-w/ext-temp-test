@@ -65,6 +65,7 @@ body:
       description: Tell us what you think the normal behavior should be
       placeholder: |
         It should generate a grid of 2 images
+        this was working in webui version 1.x.x
     validations:
       required: true
   - type: dropdown
@@ -79,12 +80,6 @@ body:
         - Apple Safari
         - Microsoft Edge
         - Other
-  - type: textarea
-    id: misc
-    attributes:
-      label: Additional information
-      description: Please provide us with any relevant additional info or context.
-      placeholder: this was working in webui version 1.x.x
   - type: textarea
     id: sysinfo
     attributes:
@@ -125,3 +120,8 @@ body:
         UnboundLocalError: local variable 'h' referenced before assignment
     validations:
       required: true
+  - type: textarea
+    id: misc
+    attributes:
+      label: Additional information
+      description: Please provide us with any relevant additional info or context.
