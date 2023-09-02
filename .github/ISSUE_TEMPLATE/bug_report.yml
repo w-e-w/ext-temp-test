@@ -13,12 +13,12 @@ body:
           required: true
   - type: checkboxes
     attributes:
-    label: I have to try to solve the issue myself
-    description: |
-      Please do some basic debugging to try rule out extensions or bad configuration as the cause of the issue
-      - label: I have tried disabling all extensions
-      - label: I have tried on a clean installation of webui
-      - label: The issue is caused by an extension but it is caused by a bug in webui
+      label: I have to try to solve the issue myself
+      description: |
+        Please do some basic debugging to try rule out extensions or bad configuration as the cause of the issue
+        - label: I have tried disabling all extensions
+        - label: I have tried on a clean installation of webui
+      -   label: The issue is caused by an extension but it is caused by a bug in webui
   - type: markdown
     attributes:
       value: |
