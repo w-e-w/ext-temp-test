@@ -42,7 +42,7 @@ body:
       placeholder: |
         I tried to use txt2img with XYZ grid with Sampler DPM++ SDE,DPM++ 2M SDE
         it should generate a grid of 2 images but I only got 1
-        > if necessary add screenshot or screen recording
+        if necessary add screenshot or screen recording
     validations:
       required: true
   - type: textarea
@@ -52,7 +52,7 @@ body:
       description: Please provide us with precise step by step instructions on how to reproduce the bug
       placeholder: |
         1. Go to txt2img tab Select XYZ grid 
-        2. Set X axis type Sampler value DPM++ 2M SDE,DPM++ 3M SDE
+        2. Set axis type Sampler and select DPM++ 2M SDE, DPM++ 3M SDE
         3. Set Sampling steps to 1 and click Generate button
     validations:
       required: true
@@ -77,6 +77,8 @@ body:
         - Brave
         - Apple Safari
         - Microsoft Edge
+        - Android
+        - iOS
         - Other
   - type: textarea
     id: sysinfo
