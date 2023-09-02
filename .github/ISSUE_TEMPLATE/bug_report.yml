@@ -19,11 +19,6 @@ body:
           required: true
         - label: The issue exist in the dev version of webui
           required: true
-        - lable: I have such that the issue havent been reported before
-          required: true
-        - lable: The issue has been reported before but hasnt been fixed yet
-          required: true
-
   - type: markdown
     attributes:
       value: |
