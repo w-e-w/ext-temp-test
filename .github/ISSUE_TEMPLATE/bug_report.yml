@@ -6,23 +6,23 @@ labels: ["bug-report"]
 body:
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this?
+      label: I have to try to solve the issue myself
       description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
       options:
         - label: I have tried disabling all extensions
-            required: false
+          required: false
         - label: I have tried on a clean installation of webui
-            required: false
+          required: false
         - label: The issue is caused by an extension but it is caused by a bug in webui
-            required: false
+          required: false
         - label: The issue exist in the master version of webui
-            required: false
+          required: false
         - label: The issue exist in the dev version of webui
-            required: false
+          required: false
         - lable: I have such that the issue haven't been reported before
-            required: false
+          required: false
         - lable: The issue has been reported before but hasn't been fixed yet
-            required: false
+          required: false
   - type: markdown
     attributes:
       value: |
