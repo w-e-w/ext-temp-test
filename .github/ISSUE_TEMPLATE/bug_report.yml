@@ -58,6 +58,18 @@ body:
         It should generate a grid of 2 images
     validations:
       required: true
+ - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers do you use to access the UI ?
+      multiple: true
+      options:
+        - Mozilla Firefox
+        - Google Chrome
+        - Brave
+        - Apple Safari
+        - Microsoft Edge
+        - Other
   - type: textarea
     id: sysinfo
     attributes:
