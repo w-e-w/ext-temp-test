@@ -9,22 +9,12 @@ body:
       label: I have to try to solve the issue myself
       description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
       options:
-        - label: I have tried disabling all extensions
-          required: true
-        - label: I have tried on a clean installation of webui
-          required: true
+        - label: The issue exist after disabling all extensions
+        - label: The issue exist on a fresh installation of webui
         - label: The issue is caused by an extension but it is caused by a bug in webui
-          required: true
-        - label: The issue exist in the latest version of webui
-          required: true
-        - label: The issue exist in the dev version of webui
-          required: true
-        - label: I have such that the issue haven't been reported before
-          required: true
+        - label: The issue exist in current version of webui
+        - label: The issue haven't been reported before recently
         - label: The issue has been reported before but hasn't been fixed yet
-          required: true
-
-        
   - type: markdown
     attributes:
       value: |
