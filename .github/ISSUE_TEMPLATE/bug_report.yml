@@ -5,11 +5,11 @@ labels: ["bug-report"]
 
 body:
  - type: markdown
-    attributes:
-      value: |
-        Give the book report a short descriptive title
-        Don't leave it blank
-        Don't put your your entire Error log in it
+   attributes:
+     value: |
+       Give the book report a short descriptive title
+       Don't leave it blank
+       Don't put your your entire Error log in it
   - type: checkboxes
     attributes:
       label: Checklist
