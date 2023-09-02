@@ -35,4 +35,16 @@ body:
         I tried to generate images using XYZ grid and it did not work
     validations:
       required: true
-
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce the problem
+      description: Please provide us with precise step by step instructions on how to reproduce the bug
+      placeholder: |
+        --- Example ---
+        1. Go to txt2img tab ...
+        2. Select XYZ grid ...
+        3. Set X axis type Sampler value DPM2, Euler 
+        4. Press Generate
+        5. you should see error message appears in console
+        Screenshot or screen recording of the issue
