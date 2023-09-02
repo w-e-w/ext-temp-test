@@ -22,3 +22,7 @@ body:
           required: true
         - label: The issue is caused by an extension but it is caused by a bug in webui
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        *Please fill this form with as much information as possible, don't forget to "Upload Sysinfo" and "What browsers" and *provide screenshots if possible**
