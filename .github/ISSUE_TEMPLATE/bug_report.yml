@@ -10,11 +10,11 @@ body:
       description: |
         Please perform basic debugging to see if extensions or configuration is the cause of the issue.
         Basic debug procedure
-        1. Disable all third-party extensions - check extension is the cause
-        2. Update extensions - sometimes extension just needs to be updated
-        3. Backup and remove your config.json and ui-config.json - check if configuration is the issue
-        4. delete venv with third-party extensions disable - sometimes extensions might cause deeper issues
-        5. try a fresh installation webui in a different directory - see if a clean installation solves the issue
+        　1. Disable all third-party extensions - check extension is the cause
+        　2. Update extensions - sometimes extension just needs to be updated
+        　3. Backup and remove your config.json and ui-config.json - check if configuration is the issue
+        　4. delete venv with third-party extensions disable - sometimes extensions might cause deeper issues
+        　5. try a fresh installation webui in a different directory - see if a clean installation solves the issue
         Before making a issue report please check that the issue hasn't been reported recently
       options:
         - label: The issue exist after disabling all extensions
