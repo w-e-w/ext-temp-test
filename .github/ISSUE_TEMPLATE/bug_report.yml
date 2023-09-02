@@ -18,10 +18,7 @@ body:
       options:
         - label: I have tried disabling all extensions
           required: true
-        - label: I have tried on a clean installation of webui
-          required: true
-        - label: The issue is caused by an extension but it is caused by a bug in webui
-          required: true
+
   - type: markdown
     attributes:
       value: |
