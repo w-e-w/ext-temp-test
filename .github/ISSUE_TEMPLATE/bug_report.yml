@@ -6,7 +6,7 @@ labels: ["bug-report"]
 body:
   - type: checkboxes
     attributes:
-      label: Checklist
+      label: checklist
       description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
       options:
         - label: I have tried disabling all extensions
