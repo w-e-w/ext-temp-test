@@ -33,5 +33,3 @@ body:
       description: Tell us what happened in a very clear and simple way
     validations:
       required: true
-    placeholder: |
-        I tried to generate images using XYZ grid and it did not work
