@@ -31,5 +31,8 @@ body:
     attributes:
       label: What happened?
       description: Tell us what happened in a very clear and simple way
+      placeholder: |
+        I tried to generate images using XYZ grid and it did not work
     validations:
       required: true
+
