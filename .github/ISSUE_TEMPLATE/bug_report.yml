@@ -26,3 +26,12 @@ body:
     attributes:
       value: |
         *Please fill this form with as much information as possible, don't forget to "Upload Sysinfo" and "What browsers" and *provide screenshots if possible**
+  - type: textarea
+    id: what-did
+    attributes:
+      label: What happened?
+      description: Tell us what happened in a very clear and simple way
+    validations:
+      required: true
+    placeholder: |
+      I tried to generate images using XYZ grid and it did not work
