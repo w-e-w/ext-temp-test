@@ -5,8 +5,10 @@ labels: ["bug-report"]
 
 body:
   - type: checkboxes
-    description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
     attributes:
+      description: |
+        Please do some basic debugging to see if extensions or configuration as the cause of the issue.
+        Check if the issue has been reported recently and if the issue is already fixed in newer commit/versions of webui.
       label: Checklist
       options:
         - label: I have tried disabling all extensions
