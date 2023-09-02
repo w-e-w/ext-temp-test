@@ -10,9 +10,7 @@ body:
     search to see if an issue already exists for the bug you encountered, and that it hasn't been fixed in a recent build/commit.
     attributes:
       label: Checklist
-      description: |
-      Please do some basic debugging to see if extensions or configuration as the cause of the issue.
-      Check if the issue has been reported recently.
+      description: Please do some basic debugging to see if extensions or configuration as the cause of the issue. Check if the issue has been reported recently.
       options:
         - label: I have tried disabling all extensions
         - label: I have tried on a clean installation of webui
