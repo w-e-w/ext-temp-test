@@ -58,7 +58,7 @@ body:
         It should generate a grid of 2 images
     validations:
       required: true
- - type: dropdown
+  - type: dropdown
     id: browsers
     attributes:
       label: What browsers do you use to access the UI ?
