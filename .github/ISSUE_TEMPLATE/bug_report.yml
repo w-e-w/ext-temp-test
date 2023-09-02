@@ -10,7 +10,7 @@ body:
       description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
       options:
         - label: I have tried disabling all extensions
-          value: I have tried disabling all extensions
+            value: I have tried disabling all extensions
           required: true
         
 
