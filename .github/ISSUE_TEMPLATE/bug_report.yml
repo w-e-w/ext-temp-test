@@ -41,6 +41,7 @@ body:
       description: Tell us what happened in a very clear and simple way
       placeholder: |
         I tried to generate images using XYZ grid and it did not work
+        Screenshot or screen recording of the issue if necessary
     validations:
       required: true
   - type: textarea
@@ -49,13 +50,9 @@ body:
       label: Steps to reproduce the problem
       description: Please provide us with precise step by step instructions on how to reproduce the bug
       placeholder: |
-        1. Go to txt2img tab ...
-        2. Select XYZ grid ...
-        3. Set X axis type Sampler value DPM2, Euler 
-        4. Press Generate
-        5. you should see error message appears in console
-        
-        Screenshot or screen recording of the issue if necessary
+        1. Go to txt2img tab Select XYZ grid 
+        2. Set X axis type Sampler value DPM++ 2M SDE,DPM++ 3M SDE
+        3. Set Sampling steps to 1 and click Generate button
     validations:
       required: true
   - type: textarea
@@ -117,7 +114,7 @@ body:
             return func(*args, **kwargs)
           File "B:\GitHub\stable-diffusion-webui\repositories\k-diffusion\k_diffusion\sampling.py", line 651, in sample_dpmpp_2m_sde
             h_last = h
-        UnboundLocalError: local variable 'h' referenced before assignment
+        UnboundLocalError: local variable 'h' referenced before assignment        
     validations:
       required: true
   - type: textarea
