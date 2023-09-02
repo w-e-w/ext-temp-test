@@ -34,4 +34,4 @@ body:
     validations:
       required: true
     placeholder: |
-      I tried to generate images using XYZ grid and it did not work
+        I tried to generate images using XYZ grid and it did not work
