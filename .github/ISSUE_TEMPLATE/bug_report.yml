@@ -92,6 +92,12 @@ body:
       render: Shell
       placeholder: |
         venv "B:\stable-diffusion-webui\venv\Scripts\Python.exe"
-        
+        Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+        Version: v1.6.0
+        Commit hash: 5ef669de080814067961f28357256e8fe27544f4
+        Launching Web UI with arguments: --api --xformers
+        Loading weights [31e35c80fc] from B:\stable-diffusion-webui\models\Stable-diffusion\sd_xl_base_1.0.safetensors
+        Running on local URL:  http://127.0.0.1:7860/
+
     validations:
       required: true
