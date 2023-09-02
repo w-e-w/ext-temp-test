@@ -19,6 +19,9 @@ body:
           required: true
         - label: The issue exist in the dev version of webui
           required: true
+        - lable: asddd
+          required: true
+        
   - type: markdown
     attributes:
       value: |
