@@ -122,6 +122,6 @@ body:
             return func(*args, **kwargs)
           File "B:\GitHub\stable-diffusion-webui\repositories\k-diffusion\k_diffusion\sampling.py", line 651, in sample_dpmpp_2m_sde
             h_last = h
-UnboundLocalError: local variable 'h' referenced before assignment
+        UnboundLocalError: local variable 'h' referenced before assignment
     validations:
       required: true
