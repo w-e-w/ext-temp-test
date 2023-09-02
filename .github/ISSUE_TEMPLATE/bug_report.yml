@@ -91,7 +91,7 @@ body:
       description: Please provide **full** cmd/terminal logs from the moment you started UI to the end of it, after your bug happened. If it's very long, provide a link to pastebin or similar service.
       render: Shell
       placeholder: |
-        venv \"B:\stable-diffusion-webui\venv\Scripts\Python.exe\"
+        venv "B:\stable-diffusion-webui\venv\Scripts\Python.exe"
         Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
         Version: v1.6.0
         Commit hash: 5ef669de080814067961f28357256e8fe27544f4
@@ -106,7 +106,7 @@ body:
         Applying attention optimization: xformers... done.
         Model loaded in 5.2s (load weights from disk: 0.9s, create model: 0.5s, apply weights to model: 2.3s, load VAE: 0.8s, calculate empty prompt: 0.6s).
 
-        txt2img\:
+        txt2img:
         X/Y/Z plot will create 0 images on 1 0x1 grid. (Total steps to process: 0)
         Unexpected error: Processing could not begin, you may need to refresh the tab or restart the service.
     validations:
