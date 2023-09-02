@@ -13,16 +13,7 @@ body:
           required: true
         - label: I have tried on a clean installation of webui
           required: true
-        - label: The issue is caused by an extension but it is caused by a bug in webui
-          required: true
-        - label: The issue exist in the master version of webui
-          required: true
-        - label: The issue exist in the dev version of webui
-          required: true
-        - lable: "I have such that the issue haven't been reported before"
-          required: true
-        - lable: "The issue has been reported before but hasn't been fixed yet"
-          required: true
+
   - type: markdown
     attributes:
       value: |
