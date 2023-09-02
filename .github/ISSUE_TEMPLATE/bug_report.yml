@@ -7,10 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        > Give the bug report a short descriptive title
-        People should be able to use the search for similar issues
-        Don't leave it blank
-        Don't put your your entire Error log in it
+        > The title the bug report should be short and descriptive
+        > Use relevant keywords for searchability
+        > Don't leave it blank but also don't put the entire error log in it
   - type: checkboxes
     attributes:
       label: Checklist
