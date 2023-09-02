@@ -6,11 +6,19 @@ labels: ["bug-report"]
 body:
   - type: checkboxes
     attributes:
-      label: I have to try to solve the issue myself
-      description: Please do some basic debugging to see if extensions or configuration as the cause of the issue.
+      label: Checklist
+      description: |
+        Please perform basic debugging to see if extensions or configuration is the cause of the issue.
+        Basic debug procedure
+          1. Disable all third-party extensions - check extension is the cause
+          2. Update extensions - sometimes extension just needs to be updated
+          3. Backup and remove your config.json and ui-config.json - check if configuration is the issue
+          4. delete venv with third-party extensions disable - sometimes extensions might cause deeper issues
+          5. try a fresh installation webui in a different directory - see if a clean installation solves the issue
+        Before making a issue report please check that the issue hasn't been reported recently
       options:
         - label: The issue exist after disabling all extensions
-        - label: The issue exist on a fresh installation of webui
+        - label: The issue exist on a clean installation of webui
         - label: The issue is caused by an extension but it is caused by a bug in webui
         - label: The issue exist in current version of webui
         - label: The issue haven't been reported before recently
