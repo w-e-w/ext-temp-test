@@ -88,7 +88,7 @@ body:
       placeholder: |
         1. Go to WebUI Settings -> Sysinfo -> Download system info.
             If WebUI fails to launch, use --dump-sysinfo commandline argument to generate the file
-        2. Upload the Sysinfo as a attached file, Do NOT paste it in as raw text.
+        2. Upload the Sysinfo as a attached file, Do NOT paste it in as plain text.
     validations:
       required: true
   - type: textarea
