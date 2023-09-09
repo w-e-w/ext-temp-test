@@ -39,7 +39,7 @@ body:
       label: What happened?
       description: Tell us what happened in a very clear and simple way
       placeholder: |
-        I tried to use ... function of Webui ... and it did not work.
+        txt2img is not working as intended.
     validations:
       required: true
   - type: textarea
