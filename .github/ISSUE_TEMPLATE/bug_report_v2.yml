@@ -99,7 +99,7 @@ body:
     id: misc
     attributes:
       label: Additional information
-      description: Please provide us with any relevant additional info or context.
-      placeholder: |
+      description: | 
+        Please provide us with any relevant additional info or context.
         Examples:
-        I have updated my GPU driver recently.
+        　I have updated my GPU driver recently.
