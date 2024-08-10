@@ -1,0 +1,9 @@
+{
+    "name": "ext-temp-test",
+    "url": "https://github.com/w-e-w/ext-temp-test.git",
+    "description": "Extension for Automatic1111 to automatically create masks for Background/Hair/Body/Face/Clothes in Img2Img",
+    "tags": [
+        "script",
+        "editing"
+    ],
+}
