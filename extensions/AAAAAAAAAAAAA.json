@@ -1,0 +1,9 @@
+{
+    "name": "AAAA",
+    "url": "https://gAAAAithub.com/benkyoujouzu/stable-diffusion-webui-visualize-cross-attention-extension.git",
+    "description": "Generates highlighted sectors of a submitted input image, based on input prompts. Use with tokenizer extension. See the readme for more info.",
+    "tags": [
+        "tab",
+        "science"
+    ]
+}
